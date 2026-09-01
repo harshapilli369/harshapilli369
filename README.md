@@ -1,133 +1,134 @@
-<h1 align="center">Harsha Pilli</h1>
-
 <p align="center">
-  <b>Java &amp; Spring Boot developer</b> with three years of production delivery, now completing a<br>
-  Master of Applied Computer Science at Dalhousie University in Halifax, Nova Scotia.
+  <img src="./assets/header.svg" alt="Harsha Pilli, Java and Spring Boot developer, available for a 4- or 8-month developer co-op from January 2027" width="100%">
 </p>
 
 <p align="center">
-  <b>Open to a 4- or 8-month developer co-op starting January 2027</b> &nbsp;·&nbsp; willing to relocate anywhere in Canada
+  <a href="https://www.linkedin.com/in/harsha-pilli-35209123a/"><img src="https://img.shields.io/badge/LinkedIn-1155CC?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  &nbsp;
+  <a href="mailto:harshapilli369@gmail.com"><img src="https://img.shields.io/badge/Email-1155CC?style=flat-square&logo=maildotru&logoColor=white" alt="Email"></a>
+  &nbsp;
+  <a href="https://www.credly.com/badges/31345fc6-9b76-4e93-a465-a2123f1ba1b9/public_url"><img src="https://img.shields.io/badge/AWS%20Certified%20Cloud%20Practitioner-1155CC?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner"></a>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/harsha-pilli-35209123a/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:harshapilli369@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.credly.com/badges/31345fc6-9b76-4e93-a465-a2123f1ba1b9/public_url"><img src="https://img.shields.io/badge/AWS%20Certified-%23FF9900.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner"></a>
-</p>
+<br>
 
----
-
-## 🧑‍💻 About Me
-
-🔭 I'm currently working on: my Master of Applied Computer Science at Dalhousie, and **DCode**, an architecture validation research project
-
-👯 I'm looking to collaborate on: open-source Java and Spring Boot projects; I have an open PR against **OpenMRS Core**
-
-🤝 I'm looking for help with: landing a **4- or 8-month developer co-op starting January 2027**; I'll relocate anywhere in Canada
-
-🌱 I'm currently learning: AWS Solutions Architect Associate, plus daily DSA ahead of Winter 2027 co-op interviews
-
-💬 Ask me about: Spring Boot, REST API design, TDD with JUnit 5 and Mockito, or splitting a monolith into microservices
-
-⚡ Fun fact: I wrote 535 unit tests for a side project nobody asked me to build
-
----
-
-## 🚀 Selected Work
-
-| Project | What it is | What is actually in it |
-| :--- | :--- | :--- |
-| **[Collabry](https://github.com/harshapilli369/collabry)** | Brand &amp; influencer collaboration platform with three portals on one backend | 50 REST endpoints · 12 controllers · 18 services · **535 JUnit 5 tests across 61 classes**, written test-first · role-scoped Spring Security with JWT and Google OAuth 2.0 · shipped as one Docker image through GitLab CI |
-| **[SmartCare (SAWS)](https://github.com/harshapilli369/saws-smartcare)** | Serverless healthcare appointment platform, seven-person team project at Dalhousie | Both clouds provisioned as code with Terraform and CloudFormation, rebuildable from a clean account · MFA stages 2 and 3, the booking Lambda and the SQS→SNS reminder handler · GitLab CI authenticating to GCP keylessly via Workload Identity Federation |
-| **[OpenMRS Core](https://github.com/openmrs/openmrs-core/pull/5937)** | Open pull request against the open-source electronic medical record platform | TRUNK-5748 · six categories of SonarCloud code smell cleared across **16 files, +539/-134 over 9 commits**, held to the project's Java conventions through maintainer review |
-| **[DCode](https://dcodehub.com/)** | Software architecture validation platform, faculty-supervised research | Leiden/Louvain community detection over NetworkX dependency graphs to propose architecture layers · collapse/expand navigation for graphs of thousands of nodes · dependency rule builder with draft, publish and fork versioning *(repository is private)* |
+## About
 
 Before the degree, I spent three years at Computer Technology Corporation building REST APIs for an
 outbound SMS, email and voice campaign platform, decomposing a monolithic staffing system into Spring
-Boot microservices, and shipping one product to iOS and Android from a single Flutter codebase, with
-JUnit 5 and Mockito past **85% coverage**, SonarQube and Fortify wired into the SDLC, and **10+ Grafana
-dashboards** that cut issue-detection time by roughly 30%.
+Boot microservices, and shipping one product to iOS and Android from a single Flutter codebase.
 
----
+I owned the quality side of that work too: JUnit 5 and Mockito past **85% coverage**, SonarQube and
+Fortify wired into the SDLC, and **10+ Grafana dashboards** that cut issue-detection time by roughly 30%.
 
-## 💻 Tech Stack
+I like backend systems where the correctness is checkable. Layered services, a real test suite, and a
+pipeline that will not let a bad build through.
+
+|   |   |
+| :--- | :--- |
+| **Currently working on** | My Master of Applied Computer Science at Dalhousie, and DCode, an architecture validation research project |
+| **Looking to collaborate on** | Open-source Java and Spring Boot projects. I have an open PR against OpenMRS Core |
+| **Looking for** | A 4- or 8-month developer co-op starting January 2027. I will relocate anywhere in Canada |
+| **Currently learning** | AWS Solutions Architect Associate, plus daily DSA ahead of Winter 2027 co-op interviews |
+| **Ask me about** | Spring Boot, REST API design, TDD with JUnit 5 and Mockito, or splitting a monolith into microservices |
+| **Fun fact** | I wrote 535 unit tests for a side project nobody asked me to build |
+
+<br>
+
+## Selected work
+
+| Project | What it is | What is actually in it |
+| :--- | :--- | :--- |
+| **[Collabry](https://github.com/harshapilli369/collabry)** | Brand and influencer collaboration platform with three portals on one backend | 50 REST endpoints · 12 controllers · 18 services · **535 JUnit 5 tests across 61 classes**, written test-first · role-scoped Spring Security with JWT and Google OAuth 2.0 · shipped as one Docker image through GitLab CI |
+| **[SmartCare (SAWS)](https://github.com/harshapilli369/saws-smartcare)** | Serverless healthcare appointment platform, seven-person team project at Dalhousie | Both clouds provisioned as code with Terraform and CloudFormation, rebuildable from a clean account · MFA stages 2 and 3, the booking Lambda and the SQS to SNS reminder handler · GitLab CI authenticating to GCP keylessly via Workload Identity Federation |
+| **[OpenMRS Core](https://github.com/openmrs/openmrs-core/pull/5937)** | Open pull request against the open-source electronic medical record platform | TRUNK-5748 · six categories of SonarCloud code smell cleared across **16 files, +539/-134 over 9 commits**, held to the project's Java conventions through maintainer review |
+| **[DCode](https://dcodehub.com/)** | Software architecture validation platform, faculty-supervised research | Leiden/Louvain community detection over NetworkX dependency graphs to propose architecture layers · collapse and expand navigation for graphs of thousands of nodes · dependency rule builder with draft, publish and fork versioning *(repository is private)* |
+
+<br>
+
+## Stack
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Java](https://img.shields.io/badge/Java-EFE9DC?style=flat-square&logo=openjdk&logoColor=12181B)
+![Python](https://img.shields.io/badge/Python-EFE9DC?style=flat-square&logo=python&logoColor=12181B)
+![TypeScript](https://img.shields.io/badge/TypeScript-EFE9DC?style=flat-square&logo=typescript&logoColor=12181B)
+![JavaScript](https://img.shields.io/badge/JavaScript-EFE9DC?style=flat-square&logo=javascript&logoColor=12181B)
+![Dart](https://img.shields.io/badge/Dart-EFE9DC?style=flat-square&logo=dart&logoColor=12181B)
+![HTML5](https://img.shields.io/badge/HTML5-EFE9DC?style=flat-square&logo=html5&logoColor=12181B)
+![CSS3](https://img.shields.io/badge/CSS3-EFE9DC?style=flat-square&logo=css3&logoColor=12181B)
 
 **Backend**
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-%236DB33F.svg?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-EFE9DC?style=flat-square&logo=springboot&logoColor=12181B)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-EFE9DC?style=flat-square&logo=springsecurity&logoColor=12181B)
+![Hibernate](https://img.shields.io/badge/Hibernate-EFE9DC?style=flat-square&logo=hibernate&logoColor=12181B)
+![Django](https://img.shields.io/badge/Django-EFE9DC?style=flat-square&logo=django&logoColor=12181B)
 
-**Front end &amp; mobile**
+**Front end and mobile**
 
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-%230170FE.svg?style=for-the-badge&logo=ant-design&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![React](https://img.shields.io/badge/React-EFE9DC?style=flat-square&logo=react&logoColor=12181B)
+![Vite](https://img.shields.io/badge/Vite-EFE9DC?style=flat-square&logo=vite&logoColor=12181B)
+![Ant Design](https://img.shields.io/badge/Ant%20Design-EFE9DC?style=flat-square&logo=antdesign&logoColor=12181B)
+![Flutter](https://img.shields.io/badge/Flutter-EFE9DC?style=flat-square&logo=flutter&logoColor=12181B)
 
 **Databases**
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-EFE9DC?style=flat-square&logo=mysql&logoColor=12181B)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-EFE9DC?style=flat-square&logo=postgresql&logoColor=12181B)
+![MongoDB](https://img.shields.io/badge/MongoDB-EFE9DC?style=flat-square&logo=mongodb&logoColor=12181B)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-EFE9DC?style=flat-square&logo=amazondynamodb&logoColor=12181B)
+![Firebase](https://img.shields.io/badge/Firebase-EFE9DC?style=flat-square&logo=firebase&logoColor=12181B)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-EFE9DC?style=flat-square&logo=elasticsearch&logoColor=12181B)
 
-**Cloud &amp; infrastructure**
+**Cloud and infrastructure**
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-EFE9DC?style=flat-square&logo=amazonwebservices&logoColor=12181B)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-EFE9DC?style=flat-square&logo=googlecloud&logoColor=12181B)
+![Terraform](https://img.shields.io/badge/Terraform-EFE9DC?style=flat-square&logo=terraform&logoColor=12181B)
+![Docker](https://img.shields.io/badge/Docker-EFE9DC?style=flat-square&logo=docker&logoColor=12181B)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-EFE9DC?style=flat-square&logo=kubernetes&logoColor=12181B)
 
-**CI/CD, testing &amp; quality**
+**CI/CD, testing and quality**
 
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-%2378A641.svg?style=for-the-badge&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)
-![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-EFE9DC?style=flat-square&logo=gitlab&logoColor=12181B)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-EFE9DC?style=flat-square&logo=githubactions&logoColor=12181B)
+![Jenkins](https://img.shields.io/badge/Jenkins-EFE9DC?style=flat-square&logo=jenkins&logoColor=12181B)
+![Maven](https://img.shields.io/badge/Maven-EFE9DC?style=flat-square&logo=apachemaven&logoColor=12181B)
+![JUnit 5](https://img.shields.io/badge/JUnit%205-EFE9DC?style=flat-square&logo=junit5&logoColor=12181B)
+![Mockito](https://img.shields.io/badge/Mockito-EFE9DC?style=flat-square&logoColor=12181B)
+![Vitest](https://img.shields.io/badge/Vitest-EFE9DC?style=flat-square&logo=vitest&logoColor=12181B)
+![SonarQube](https://img.shields.io/badge/SonarQube-EFE9DC?style=flat-square&logo=sonarqube&logoColor=12181B)
 
 **Tools**
 
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black)
-![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![Git](https://img.shields.io/badge/Git-EFE9DC?style=flat-square&logo=git&logoColor=12181B)
+![Postman](https://img.shields.io/badge/Postman-EFE9DC?style=flat-square&logo=postman&logoColor=12181B)
+![Swagger](https://img.shields.io/badge/Swagger-EFE9DC?style=flat-square&logo=swagger&logoColor=12181B)
+![Grafana](https://img.shields.io/badge/Grafana-EFE9DC?style=flat-square&logo=grafana&logoColor=12181B)
+![Jira](https://img.shields.io/badge/Jira-EFE9DC?style=flat-square&logo=jira&logoColor=12181B)
 
----
+<br>
 
-## 📊 GitHub Stats
+## Activity
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api?username=harshapilli369&include_all_commits=true&count_private=true&show_icons=true&hide_title=true&hide=stars&bg_color=FBF8F1&title_color=12181B&text_color=55636A&icon_color=1155CC&border_color=D8D2C4&border_radius=2&card_width=440" alt="GitHub statistics for harshapilli369">
+  <img src="https://streak-stats.demolab.com/?user=harshapilli369&background=FBF8F1&border=D8D2C4&stroke=D8D2C4&ring=1155CC&fire=1155CC&currStreakNum=12181B&sideNums=12181B&currStreakLabel=55636A&sideLabels=55636A&dates=8A8578&excludeDaysLabel=8A8578&card_width=420" alt="Contribution streak">
+</p>
 
-![GitHub stats for harshapilli369](https://github-readme-stats.shion.dev/api?username=harshapilli369&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true)
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=harshapilli369&include_all_commits=true&count_private=true&layout=compact&langs_count=8&hide_title=true&bg_color=FBF8F1&title_color=12181B&text_color=55636A&border_color=D8D2C4&border_radius=2&card_width=420" alt="Most used languages">
+</p>
 
-![GitHub streak](https://streak-stats.demolab.com/?user=harshapilli369&theme=midnight-purple&hide_border=true)
+<br>
 
-![Top languages](https://github-readme-stats.shion.dev/api/top-langs/?username=harshapilli369&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8)
-
-</div>
-
----
-
-<div align="center">
-<sub>Reach me at <a href="mailto:harshapilli369@gmail.com">harshapilli369@gmail.com</a> or on <a href="https://www.linkedin.com/in/harsha-pilli-35209123a/">LinkedIn</a>.</sub>
-</div>
+<p align="center">
+  <sub>
+    <a href="mailto:harshapilli369@gmail.com">harshapilli369@gmail.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/harsha-pilli-35209123a/">LinkedIn</a>
+    &nbsp;·&nbsp;
+    Halifax, Nova Scotia
+  </sub>
+</p>
