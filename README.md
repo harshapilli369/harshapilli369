@@ -19,17 +19,17 @@
 
 ## 🧑‍💻 About Me
 
-🔭 I'm currently working on — my Master of Applied Computer Science at Dalhousie, and **DCode**, an architecture validation research project
+🔭 I'm currently working on: my Master of Applied Computer Science at Dalhousie, and **DCode**, an architecture validation research project
 
-👯 I'm looking to collaborate on — open-source Java and Spring Boot projects; I have an open PR against **OpenMRS Core**
+👯 I'm looking to collaborate on: open-source Java and Spring Boot projects; I have an open PR against **OpenMRS Core**
 
-🤝 I'm looking for help with — landing a **4- or 8-month developer co-op starting January 2027**; I'll relocate anywhere in Canada
+🤝 I'm looking for help with: landing a **4- or 8-month developer co-op starting January 2027**; I'll relocate anywhere in Canada
 
-🌱 I'm currently learning — AWS Solutions Architect Associate, plus daily DSA ahead of Winter 2027 co-op interviews
+🌱 I'm currently learning: AWS Solutions Architect Associate, plus daily DSA ahead of Winter 2027 co-op interviews
 
-💬 Ask me about — Spring Boot, REST API design, TDD with JUnit 5 and Mockito, or splitting a monolith into microservices
+💬 Ask me about: Spring Boot, REST API design, TDD with JUnit 5 and Mockito, or splitting a monolith into microservices
 
-⚡ Fun fact — I wrote 535 unit tests for a side project nobody asked me to build
+⚡ Fun fact: I wrote 535 unit tests for a side project nobody asked me to build
 
 ---
 
@@ -37,14 +37,14 @@
 
 | Project | What it is | What is actually in it |
 | :--- | :--- | :--- |
-| **[Collabry](https://github.com/harshapilli369/collabry)** | Brand &amp; influencer collaboration platform — three portals on one backend | 50 REST endpoints · 12 controllers · 18 services · **535 JUnit 5 tests across 61 classes**, written test-first · role-scoped Spring Security with JWT and Google OAuth 2.0 · shipped as one Docker image through GitLab CI |
+| **[Collabry](https://github.com/harshapilli369/collabry)** | Brand &amp; influencer collaboration platform with three portals on one backend | 50 REST endpoints · 12 controllers · 18 services · **535 JUnit 5 tests across 61 classes**, written test-first · role-scoped Spring Security with JWT and Google OAuth 2.0 · shipped as one Docker image through GitLab CI |
 | **[SmartCare (SAWS)](https://github.com/harshapilli369/saws-smartcare)** | Serverless healthcare appointment platform, seven-person team project at Dalhousie | Both clouds provisioned as code with Terraform and CloudFormation, rebuildable from a clean account · MFA stages 2 and 3, the booking Lambda and the SQS→SNS reminder handler · GitLab CI authenticating to GCP keylessly via Workload Identity Federation |
-| **[OpenMRS Core](https://github.com/openmrs/openmrs-core/pull/5937)** | Open pull request against the open-source electronic medical record platform | TRUNK-5748 · six categories of SonarCloud code smell cleared across **16 files, +539/−134 over 9 commits**, held to the project's Java conventions through maintainer review |
-| **[DCode](https://dcodehub.com/)** | Software architecture validation platform — faculty-supervised research | Leiden/Louvain community detection over NetworkX dependency graphs to propose architecture layers · collapse/expand navigation for graphs of thousands of nodes · dependency rule builder with draft–publish–fork versioning *(repository is private)* |
+| **[OpenMRS Core](https://github.com/openmrs/openmrs-core/pull/5937)** | Open pull request against the open-source electronic medical record platform | TRUNK-5748 · six categories of SonarCloud code smell cleared across **16 files, +539/-134 over 9 commits**, held to the project's Java conventions through maintainer review |
+| **[DCode](https://dcodehub.com/)** | Software architecture validation platform, faculty-supervised research | Leiden/Louvain community detection over NetworkX dependency graphs to propose architecture layers · collapse/expand navigation for graphs of thousands of nodes · dependency rule builder with draft, publish and fork versioning *(repository is private)* |
 
 Before the degree, I spent three years at Computer Technology Corporation building REST APIs for an
 outbound SMS, email and voice campaign platform, decomposing a monolithic staffing system into Spring
-Boot microservices, and shipping one product to iOS and Android from a single Flutter codebase — with
+Boot microservices, and shipping one product to iOS and Android from a single Flutter codebase, with
 JUnit 5 and Mockito past **85% coverage**, SonarQube and Fortify wired into the SDLC, and **10+ Grafana
 dashboards** that cut issue-detection time by roughly 30%.
 
