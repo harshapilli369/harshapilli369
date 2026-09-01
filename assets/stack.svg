@@ -1,93 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="284" viewBox="0 0 1000 284" role="img" aria-label="Stack: Languages: Java 17, Python, TypeScript, JavaScript, SQL, Dart; Backend: Spring Boot, Spring Security, Spring Data JPA, Hibernate, Django; Front end: React 19, Vite, Ant Design, Cytoscape.js, Flutter; Data: PostgreSQL, MySQL, MongoDB, DynamoDB, Elasticsearch; Cloud: AWS, Google Cloud, Terraform, Docker, Kubernetes; Quality: JUnit 5, Mockito, JaCoCo, SonarQube, GitLab CI, GitHub Actions">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="286" viewBox="0 0 1000 286" role="img" aria-label="Stack: Languages: Java 17, Python, TypeScript, JavaScript, SQL, Dart; Backend: Spring Boot, Spring Security, Spring Data JPA, Hibernate, Django; Front end: React 19, Vite, Ant Design, Cytoscape.js, Flutter; Data: PostgreSQL, MySQL, MongoDB, DynamoDB, Elasticsearch; Cloud: AWS, Google Cloud, Terraform, Docker, Kubernetes; Quality: JUnit 5, Mockito, JaCoCo, SonarQube, GitLab CI, GitHub Actions">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer>
     </filter>
-    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    <filter id="lift" x="-16%" y="-20%" width="132%" height="144%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="4" flood-color="#4A4132" flood-opacity="0.22"/>
     </filter>
+    <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.045" stroke-width="0.6"/>
+    </pattern>
   </defs>
-  <rect width="1000" height="284" fill="#E4DAC6"/>
   <g font-family="Georgia, 'Times New Roman', serif">
-  <rect x="10.0" y="10.0" width="980.0" height="264.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <rect x="10.0" y="10.0" width="980.0" height="34.0" rx="11" fill="#F4EFE3"/>
-  <rect x="10.0" y="27.0" width="980.0" height="17.0" rx="0" fill="#F4EFE3"/>
-  <line x1="10.0" y1="44.0" x2="990.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
-  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
-  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StackChips /&gt;</text>
-  <text x="976.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">6 groups · 32 chips</text>
-  <text x="34.0" y="78.0" font-size="11" fill="#12181B" font-weight="700">Languages</text>
-  <rect x="138.0" y="63.0" width="54.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="165.2" y="77.5" font-size="10" fill="#3A4348" text-anchor="middle">Java 17</text>
-  <rect x="199.4" y="63.0" width="49.2" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="224.0" y="77.5" font-size="10" fill="#3A4348" text-anchor="middle">Python</text>
-  <rect x="255.6" y="63.0" width="70.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="290.6" y="77.5" font-size="10" fill="#3A4348" text-anchor="middle">TypeScript</text>
-  <rect x="332.6" y="63.0" width="70.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="367.6" y="77.5" font-size="10" fill="#3A4348" text-anchor="middle">JavaScript</text>
-  <rect x="409.6" y="63.0" width="33.6" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="426.4" y="77.5" font-size="10" fill="#3A4348" text-anchor="middle">SQL</text>
-  <rect x="450.2" y="63.0" width="38.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="469.6" y="77.5" font-size="10" fill="#3A4348" text-anchor="middle">Dart</text>
-  <text x="34.0" y="112.0" font-size="11" fill="#12181B" font-weight="700">Backend</text>
-  <rect x="138.0" y="97.0" width="75.2" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="175.6" y="111.5" font-size="10" fill="#3A4348" text-anchor="middle">Spring Boot</text>
-  <rect x="220.2" y="97.0" width="96.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="268.2" y="111.5" font-size="10" fill="#3A4348" text-anchor="middle">Spring Security</text>
-  <rect x="323.2" y="97.0" width="96.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="371.2" y="111.5" font-size="10" fill="#3A4348" text-anchor="middle">Spring Data JPA</text>
-  <rect x="426.2" y="97.0" width="64.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="458.6" y="111.5" font-size="10" fill="#3A4348" text-anchor="middle">Hibernate</text>
-  <rect x="498.0" y="97.0" width="49.2" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="522.6" y="111.5" font-size="10" fill="#3A4348" text-anchor="middle">Django</text>
-  <text x="34.0" y="146.0" font-size="11" fill="#12181B" font-weight="700">Front end</text>
-  <rect x="138.0" y="131.0" width="59.6" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="167.8" y="145.5" font-size="10" fill="#3A4348" text-anchor="middle">React 19</text>
-  <rect x="204.6" y="131.0" width="38.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="224.0" y="145.5" font-size="10" fill="#3A4348" text-anchor="middle">Vite</text>
-  <rect x="250.4" y="131.0" width="70.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="285.4" y="145.5" font-size="10" fill="#3A4348" text-anchor="middle">Ant Design</text>
-  <rect x="327.4" y="131.0" width="80.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="367.6" y="145.5" font-size="10" fill="#3A4348" text-anchor="middle">Cytoscape.js</text>
-  <rect x="414.8" y="131.0" width="54.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="442.0" y="145.5" font-size="10" fill="#3A4348" text-anchor="middle">Flutter</text>
-  <text x="34.0" y="180.0" font-size="11" fill="#12181B" font-weight="700">Data</text>
-  <rect x="138.0" y="165.0" width="70.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="173.0" y="179.5" font-size="10" fill="#3A4348" text-anchor="middle">PostgreSQL</text>
-  <rect x="215.0" y="165.0" width="44.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="237.0" y="179.5" font-size="10" fill="#3A4348" text-anchor="middle">MySQL</text>
-  <rect x="266.0" y="165.0" width="54.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="293.2" y="179.5" font-size="10" fill="#3A4348" text-anchor="middle">MongoDB</text>
-  <rect x="327.4" y="165.0" width="59.6" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="357.2" y="179.5" font-size="10" fill="#3A4348" text-anchor="middle">DynamoDB</text>
-  <rect x="394.0" y="165.0" width="85.6" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="436.8" y="179.5" font-size="10" fill="#3A4348" text-anchor="middle">Elasticsearch</text>
-  <text x="34.0" y="214.0" font-size="11" fill="#12181B" font-weight="700">Cloud</text>
-  <rect x="138.0" y="199.0" width="33.6" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="154.8" y="213.5" font-size="10" fill="#3A4348" text-anchor="middle">AWS</text>
-  <rect x="178.6" y="199.0" width="80.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="218.8" y="213.5" font-size="10" fill="#3A4348" text-anchor="middle">Google Cloud</text>
-  <rect x="266.0" y="199.0" width="64.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="298.4" y="213.5" font-size="10" fill="#3A4348" text-anchor="middle">Terraform</text>
-  <rect x="337.8" y="199.0" width="49.2" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="362.4" y="213.5" font-size="10" fill="#3A4348" text-anchor="middle">Docker</text>
-  <rect x="394.0" y="199.0" width="70.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="429.0" y="213.5" font-size="10" fill="#3A4348" text-anchor="middle">Kubernetes</text>
-  <text x="34.0" y="248.0" font-size="11" fill="#12181B" font-weight="700">Quality</text>
-  <rect x="138.0" y="233.0" width="54.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="165.2" y="247.5" font-size="10" fill="#3A4348" text-anchor="middle">JUnit 5</text>
-  <rect x="199.4" y="233.0" width="54.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="226.6" y="247.5" font-size="10" fill="#3A4348" text-anchor="middle">Mockito</text>
-  <rect x="260.8" y="233.0" width="49.2" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="285.4" y="247.5" font-size="10" fill="#3A4348" text-anchor="middle">JaCoCo</text>
-  <rect x="317.0" y="233.0" width="64.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="349.4" y="247.5" font-size="10" fill="#3A4348" text-anchor="middle">SonarQube</text>
-  <rect x="388.8" y="233.0" width="64.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="421.2" y="247.5" font-size="10" fill="#3A4348" text-anchor="middle">GitLab CI</text>
-  <rect x="460.6" y="233.0" width="90.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="506.0" y="247.5" font-size="10" fill="#3A4348" text-anchor="middle">GitHub Actions</text>
+  <path d="M 18.0,16.3 L 33.2,17.0 L 48.4,16.2 L 63.6,17.3 L 78.8,17.5 L 93.9,15.9 L 109.1,16.2 L 124.3,15.9 L 139.5,16.3 L 154.7,16.5 L 169.9,17.4 L 185.1,16.4 L 200.2,16.4 L 215.4,18.0 L 230.6,17.5 L 245.8,17.7 L 261.0,17.9 L 276.2,17.5 L 291.4,18.0 L 306.6,16.4 L 321.8,15.9 L 336.9,17.6 L 352.1,17.9 L 367.3,15.9 L 382.5,16.4 L 397.7,16.8 L 412.9,17.6 L 428.1,15.9 L 443.2,17.5 L 458.4,17.2 L 473.6,16.4 L 488.8,16.6 L 504.0,16.8 L 519.2,16.5 L 534.4,16.7 L 549.6,16.3 L 564.8,16.0 L 579.9,18.1 L 595.1,16.6 L 610.3,16.2 L 625.5,16.9 L 640.7,17.3 L 655.9,17.2 L 671.1,17.4 L 686.2,16.1 L 701.4,16.2 L 716.6,17.1 L 731.8,17.4 L 747.0,16.0 L 762.2,16.2 L 777.4,17.9 L 792.6,17.6 L 807.8,16.3 L 822.9,15.9 L 838.1,17.4 L 853.3,15.9 L 868.5,17.0 L 883.7,18.0 L 898.9,16.0 L 914.1,17.5 L 929.2,16.8 L 944.4,17.5 L 959.6,18.1 L 974.8,16.5 L 991.1,19.0 L 992.2,34.2 L 993.1,49.4 L 993.0,64.5 L 991.1,79.7 L 993.0,94.9 L 992.8,110.1 L 992.8,125.2 L 992.1,140.4 L 993.0,155.6 L 991.1,170.8 L 991.1,185.9 L 992.1,201.1 L 991.6,216.3 L 991.7,231.5 L 991.9,246.6 L 991.4,261.8 L 990.0,278.3 L 974.8,278.7 L 959.6,278.6 L 944.4,279.6 L 929.2,279.0 L 914.1,278.3 L 898.9,279.2 L 883.7,279.6 L 868.5,278.2 L 853.3,279.6 L 838.1,279.7 L 822.9,279.4 L 807.8,278.2 L 792.6,280.0 L 777.4,278.4 L 762.2,278.8 L 747.0,280.0 L 731.8,278.6 L 716.6,279.7 L 701.4,278.4 L 686.2,278.1 L 671.1,279.7 L 655.9,279.4 L 640.7,278.7 L 625.5,279.0 L 610.3,278.1 L 595.1,278.6 L 579.9,277.9 L 564.8,278.9 L 549.6,279.9 L 534.4,277.9 L 519.2,279.0 L 504.0,280.1 L 488.8,279.1 L 473.6,278.7 L 458.4,279.7 L 443.2,278.3 L 428.1,279.1 L 412.9,279.2 L 397.7,279.3 L 382.5,278.6 L 367.3,278.7 L 352.1,278.8 L 336.9,279.5 L 321.8,278.9 L 306.6,279.3 L 291.4,279.7 L 276.2,278.1 L 261.0,279.1 L 245.8,278.3 L 230.6,280.0 L 215.4,279.9 L 200.2,278.1 L 185.1,280.0 L 169.9,279.0 L 154.7,278.8 L 139.5,278.5 L 124.3,278.0 L 109.1,278.7 L 93.9,277.9 L 78.8,279.8 L 63.6,279.5 L 48.4,279.4 L 33.2,278.9 L 15.0,277.0 L 16.7,261.8 L 15.6,246.6 L 15.5,231.5 L 16.0,216.3 L 14.9,201.1 L 15.2,185.9 L 16.9,170.8 L 17.1,155.6 L 15.2,140.4 L 16.9,125.2 L 15.5,110.1 L 15.7,94.9 L 16.1,79.7 L 16.0,64.5 L 14.9,49.4 L 15.7,34.2 Z" fill="#F0EADC" stroke="#DCD3BF" stroke-width="1" filter="url(#lift)"/>
+  <path d="M 14.0,12.1 L 29.2,11.7 L 44.4,12.2 L 59.6,12.3 L 74.8,11.0 L 89.9,10.9 L 105.1,12.8 L 120.3,11.4 L 135.5,11.4 L 150.7,13.1 L 165.9,11.9 L 181.1,12.8 L 196.2,11.9 L 211.4,12.3 L 226.6,11.2 L 241.8,12.3 L 257.0,12.8 L 272.2,12.1 L 287.4,12.6 L 302.6,12.4 L 317.8,11.0 L 332.9,12.6 L 348.1,12.2 L 363.3,11.5 L 378.5,10.9 L 393.7,12.8 L 408.9,11.9 L 424.1,12.5 L 439.2,12.9 L 454.4,12.5 L 469.6,13.0 L 484.8,11.8 L 500.0,12.7 L 515.2,11.9 L 530.4,13.0 L 545.6,12.9 L 560.8,11.1 L 575.9,11.2 L 591.1,11.3 L 606.3,13.1 L 621.5,11.9 L 636.7,12.3 L 651.9,11.5 L 667.1,12.0 L 682.2,11.7 L 697.4,11.7 L 712.6,12.2 L 727.8,12.2 L 743.0,12.9 L 758.2,12.4 L 773.4,13.0 L 788.6,12.8 L 803.8,13.1 L 818.9,12.4 L 834.1,11.2 L 849.3,12.8 L 864.5,13.1 L 879.7,12.9 L 894.9,12.2 L 910.1,12.5 L 925.2,11.3 L 940.4,12.8 L 955.6,12.2 L 970.8,11.5 L 989.0,14.0 L 987.2,29.2 L 986.9,44.4 L 988.9,59.5 L 987.3,74.7 L 988.2,89.9 L 988.8,105.1 L 988.5,120.2 L 987.4,135.4 L 987.1,150.6 L 989.0,165.8 L 987.7,180.9 L 989.0,196.1 L 987.5,211.3 L 988.4,226.5 L 987.1,241.6 L 986.9,256.8 L 986.0,274.0 L 970.8,272.9 L 955.6,274.4 L 940.4,275.0 L 925.2,273.8 L 910.1,275.1 L 894.9,274.7 L 879.7,274.2 L 864.5,273.7 L 849.3,274.8 L 834.1,275.1 L 818.9,273.2 L 803.8,274.4 L 788.6,272.9 L 773.4,273.1 L 758.2,274.3 L 743.0,274.1 L 727.8,274.0 L 712.6,273.7 L 697.4,273.8 L 682.2,273.9 L 667.1,273.7 L 651.9,273.0 L 636.7,274.0 L 621.5,274.2 L 606.3,273.5 L 591.1,274.6 L 575.9,274.5 L 560.8,272.9 L 545.6,274.0 L 530.4,273.9 L 515.2,275.1 L 500.0,274.2 L 484.8,273.8 L 469.6,275.1 L 454.4,273.7 L 439.2,273.7 L 424.1,275.0 L 408.9,273.7 L 393.7,274.1 L 378.5,273.6 L 363.3,274.3 L 348.1,273.5 L 332.9,273.5 L 317.8,275.1 L 302.6,275.0 L 287.4,273.6 L 272.2,272.9 L 257.0,274.6 L 241.8,274.1 L 226.6,273.8 L 211.4,274.4 L 196.2,274.3 L 181.1,274.4 L 165.9,274.3 L 150.7,273.8 L 135.5,274.5 L 120.3,274.3 L 105.1,273.4 L 89.9,275.1 L 74.8,273.8 L 59.6,273.5 L 44.4,274.4 L 29.2,274.6 L 12.7,272.0 L 11.4,256.8 L 11.3,241.6 L 11.9,226.5 L 12.5,211.3 L 11.1,196.1 L 11.6,180.9 L 11.6,165.8 L 12.8,150.6 L 11.9,135.4 L 12.8,120.2 L 11.2,105.1 L 11.6,89.9 L 12.3,74.7 L 12.9,59.5 L 11.9,44.4 L 11.4,29.2 Z" fill="#FCF9F2" filter="url(#lift)"/>
+  <clipPath id="c3"><path d="M 14.0,12.1 L 29.2,11.7 L 44.4,12.2 L 59.6,12.3 L 74.8,11.0 L 89.9,10.9 L 105.1,12.8 L 120.3,11.4 L 135.5,11.4 L 150.7,13.1 L 165.9,11.9 L 181.1,12.8 L 196.2,11.9 L 211.4,12.3 L 226.6,11.2 L 241.8,12.3 L 257.0,12.8 L 272.2,12.1 L 287.4,12.6 L 302.6,12.4 L 317.8,11.0 L 332.9,12.6 L 348.1,12.2 L 363.3,11.5 L 378.5,10.9 L 393.7,12.8 L 408.9,11.9 L 424.1,12.5 L 439.2,12.9 L 454.4,12.5 L 469.6,13.0 L 484.8,11.8 L 500.0,12.7 L 515.2,11.9 L 530.4,13.0 L 545.6,12.9 L 560.8,11.1 L 575.9,11.2 L 591.1,11.3 L 606.3,13.1 L 621.5,11.9 L 636.7,12.3 L 651.9,11.5 L 667.1,12.0 L 682.2,11.7 L 697.4,11.7 L 712.6,12.2 L 727.8,12.2 L 743.0,12.9 L 758.2,12.4 L 773.4,13.0 L 788.6,12.8 L 803.8,13.1 L 818.9,12.4 L 834.1,11.2 L 849.3,12.8 L 864.5,13.1 L 879.7,12.9 L 894.9,12.2 L 910.1,12.5 L 925.2,11.3 L 940.4,12.8 L 955.6,12.2 L 970.8,11.5 L 989.0,14.0 L 987.2,29.2 L 986.9,44.4 L 988.9,59.5 L 987.3,74.7 L 988.2,89.9 L 988.8,105.1 L 988.5,120.2 L 987.4,135.4 L 987.1,150.6 L 989.0,165.8 L 987.7,180.9 L 989.0,196.1 L 987.5,211.3 L 988.4,226.5 L 987.1,241.6 L 986.9,256.8 L 986.0,274.0 L 970.8,272.9 L 955.6,274.4 L 940.4,275.0 L 925.2,273.8 L 910.1,275.1 L 894.9,274.7 L 879.7,274.2 L 864.5,273.7 L 849.3,274.8 L 834.1,275.1 L 818.9,273.2 L 803.8,274.4 L 788.6,272.9 L 773.4,273.1 L 758.2,274.3 L 743.0,274.1 L 727.8,274.0 L 712.6,273.7 L 697.4,273.8 L 682.2,273.9 L 667.1,273.7 L 651.9,273.0 L 636.7,274.0 L 621.5,274.2 L 606.3,273.5 L 591.1,274.6 L 575.9,274.5 L 560.8,272.9 L 545.6,274.0 L 530.4,273.9 L 515.2,275.1 L 500.0,274.2 L 484.8,273.8 L 469.6,275.1 L 454.4,273.7 L 439.2,273.7 L 424.1,275.0 L 408.9,273.7 L 393.7,274.1 L 378.5,273.6 L 363.3,274.3 L 348.1,273.5 L 332.9,273.5 L 317.8,275.1 L 302.6,275.0 L 287.4,273.6 L 272.2,272.9 L 257.0,274.6 L 241.8,274.1 L 226.6,273.8 L 211.4,274.4 L 196.2,274.3 L 181.1,274.4 L 165.9,274.3 L 150.7,273.8 L 135.5,274.5 L 120.3,274.3 L 105.1,273.4 L 89.9,275.1 L 74.8,273.8 L 59.6,273.5 L 44.4,274.4 L 29.2,274.6 L 12.7,272.0 L 11.4,256.8 L 11.3,241.6 L 11.9,226.5 L 12.5,211.3 L 11.1,196.1 L 11.6,180.9 L 11.6,165.8 L 12.8,150.6 L 11.9,135.4 L 12.8,120.2 L 11.2,105.1 L 11.6,89.9 L 12.3,74.7 L 12.9,59.5 L 11.9,44.4 L 11.4,29.2 Z"/></clipPath>
+  <g clip-path="url(#c3)">
+  <rect x="12.0" y="12.0" width="976.0" height="34.0" rx="0" fill="#F5F0E4"/>
+  <line x1="12.0" y1="46.0" x2="988.0" y2="46.0" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="12" y="12" width="976" height="262" fill="url(#laid)"/>
+  <rect x="12" y="12" width="976" height="262" filter="url(#grain)"/>
+  <line x1="12.0" y1="13.2" x2="988.0" y2="13.2" stroke="#FFFDF8" stroke-width="1.4"/>
+  <line x1="12.0" y1="272.8" x2="988.0" y2="272.8" stroke="#D9CFB9" stroke-width="1.4"/>
   </g>
-  <rect width="1000" height="284" filter="url(#grain)"/>
+  <path d="M 14.0,12.1 L 29.2,11.7 L 44.4,12.2 L 59.6,12.3 L 74.8,11.0 L 89.9,10.9 L 105.1,12.8 L 120.3,11.4 L 135.5,11.4 L 150.7,13.1 L 165.9,11.9 L 181.1,12.8 L 196.2,11.9 L 211.4,12.3 L 226.6,11.2 L 241.8,12.3 L 257.0,12.8 L 272.2,12.1 L 287.4,12.6 L 302.6,12.4 L 317.8,11.0 L 332.9,12.6 L 348.1,12.2 L 363.3,11.5 L 378.5,10.9 L 393.7,12.8 L 408.9,11.9 L 424.1,12.5 L 439.2,12.9 L 454.4,12.5 L 469.6,13.0 L 484.8,11.8 L 500.0,12.7 L 515.2,11.9 L 530.4,13.0 L 545.6,12.9 L 560.8,11.1 L 575.9,11.2 L 591.1,11.3 L 606.3,13.1 L 621.5,11.9 L 636.7,12.3 L 651.9,11.5 L 667.1,12.0 L 682.2,11.7 L 697.4,11.7 L 712.6,12.2 L 727.8,12.2 L 743.0,12.9 L 758.2,12.4 L 773.4,13.0 L 788.6,12.8 L 803.8,13.1 L 818.9,12.4 L 834.1,11.2 L 849.3,12.8 L 864.5,13.1 L 879.7,12.9 L 894.9,12.2 L 910.1,12.5 L 925.2,11.3 L 940.4,12.8 L 955.6,12.2 L 970.8,11.5 L 989.0,14.0 L 987.2,29.2 L 986.9,44.4 L 988.9,59.5 L 987.3,74.7 L 988.2,89.9 L 988.8,105.1 L 988.5,120.2 L 987.4,135.4 L 987.1,150.6 L 989.0,165.8 L 987.7,180.9 L 989.0,196.1 L 987.5,211.3 L 988.4,226.5 L 987.1,241.6 L 986.9,256.8 L 986.0,274.0 L 970.8,272.9 L 955.6,274.4 L 940.4,275.0 L 925.2,273.8 L 910.1,275.1 L 894.9,274.7 L 879.7,274.2 L 864.5,273.7 L 849.3,274.8 L 834.1,275.1 L 818.9,273.2 L 803.8,274.4 L 788.6,272.9 L 773.4,273.1 L 758.2,274.3 L 743.0,274.1 L 727.8,274.0 L 712.6,273.7 L 697.4,273.8 L 682.2,273.9 L 667.1,273.7 L 651.9,273.0 L 636.7,274.0 L 621.5,274.2 L 606.3,273.5 L 591.1,274.6 L 575.9,274.5 L 560.8,272.9 L 545.6,274.0 L 530.4,273.9 L 515.2,275.1 L 500.0,274.2 L 484.8,273.8 L 469.6,275.1 L 454.4,273.7 L 439.2,273.7 L 424.1,275.0 L 408.9,273.7 L 393.7,274.1 L 378.5,273.6 L 363.3,274.3 L 348.1,273.5 L 332.9,273.5 L 317.8,275.1 L 302.6,275.0 L 287.4,273.6 L 272.2,272.9 L 257.0,274.6 L 241.8,274.1 L 226.6,273.8 L 211.4,274.4 L 196.2,274.3 L 181.1,274.4 L 165.9,274.3 L 150.7,273.8 L 135.5,274.5 L 120.3,274.3 L 105.1,273.4 L 89.9,275.1 L 74.8,273.8 L 59.6,273.5 L 44.4,274.4 L 29.2,274.6 L 12.7,272.0 L 11.4,256.8 L 11.3,241.6 L 11.9,226.5 L 12.5,211.3 L 11.1,196.1 L 11.6,180.9 L 11.6,165.8 L 12.8,150.6 L 11.9,135.4 L 12.8,120.2 L 11.2,105.1 L 11.6,89.9 L 12.3,74.7 L 12.9,59.5 L 11.9,44.4 L 11.4,29.2 Z" fill="none" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="27.0" y="25.5" width="7.0" height="7.0" rx="1" fill="#1155CC"/>
+  <text x="41.0" y="33.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StackChips /&gt;</text>
+  <text x="973.0" y="32.5" font-size="9" fill="#A8563C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">6 groups · 32 chips</text>
+  <text x="42.0" y="82.0" font-size="11" fill="#12181B" font-weight="700">Languages</text>
+  <rect x="146.0" y="67.0" width="54.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="173.2" y="81.5" font-size="10" fill="#394247" text-anchor="middle">Java 17</text>
+  <rect x="207.4" y="67.0" width="49.2" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="232.0" y="81.5" font-size="10" fill="#394247" text-anchor="middle">Python</text>
+  <rect x="263.6" y="67.0" width="70.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="298.6" y="81.5" font-size="10" fill="#394247" text-anchor="middle">TypeScript</text>
+  <rect x="340.6" y="67.0" width="70.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="375.6" y="81.5" font-size="10" fill="#394247" text-anchor="middle">JavaScript</text>
+  <rect x="417.6" y="67.0" width="33.6" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="434.4" y="81.5" font-size="10" fill="#394247" text-anchor="middle">SQL</text>
+  <rect x="458.2" y="67.0" width="38.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="477.6" y="81.5" font-size="10" fill="#394247" text-anchor="middle">Dart</text>
+  <text x="42.0" y="116.0" font-size="11" fill="#12181B" font-weight="700">Backend</text>
+  <rect x="146.0" y="101.0" width="75.2" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="183.6" y="115.5" font-size="10" fill="#394247" text-anchor="middle">Spring Boot</text>
+  <rect x="228.2" y="101.0" width="96.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="276.2" y="115.5" font-size="10" fill="#394247" text-anchor="middle">Spring Security</text>
+  <rect x="331.2" y="101.0" width="96.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="379.2" y="115.5" font-size="10" fill="#394247" text-anchor="middle">Spring Data JPA</text>
+  <rect x="434.2" y="101.0" width="64.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="466.6" y="115.5" font-size="10" fill="#394247" text-anchor="middle">Hibernate</text>
+  <rect x="506.0" y="101.0" width="49.2" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="530.6" y="115.5" font-size="10" fill="#394247" text-anchor="middle">Django</text>
+  <text x="42.0" y="150.0" font-size="11" fill="#12181B" font-weight="700">Front end</text>
+  <rect x="146.0" y="135.0" width="59.6" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="175.8" y="149.5" font-size="10" fill="#394247" text-anchor="middle">React 19</text>
+  <rect x="212.6" y="135.0" width="38.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="232.0" y="149.5" font-size="10" fill="#394247" text-anchor="middle">Vite</text>
+  <rect x="258.4" y="135.0" width="70.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="293.4" y="149.5" font-size="10" fill="#394247" text-anchor="middle">Ant Design</text>
+  <rect x="335.4" y="135.0" width="80.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="375.6" y="149.5" font-size="10" fill="#394247" text-anchor="middle">Cytoscape.js</text>
+  <rect x="422.8" y="135.0" width="54.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="450.0" y="149.5" font-size="10" fill="#394247" text-anchor="middle">Flutter</text>
+  <text x="42.0" y="184.0" font-size="11" fill="#12181B" font-weight="700">Data</text>
+  <rect x="146.0" y="169.0" width="70.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="181.0" y="183.5" font-size="10" fill="#394247" text-anchor="middle">PostgreSQL</text>
+  <rect x="223.0" y="169.0" width="44.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="245.0" y="183.5" font-size="10" fill="#394247" text-anchor="middle">MySQL</text>
+  <rect x="274.0" y="169.0" width="54.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="301.2" y="183.5" font-size="10" fill="#394247" text-anchor="middle">MongoDB</text>
+  <rect x="335.4" y="169.0" width="59.6" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="365.2" y="183.5" font-size="10" fill="#394247" text-anchor="middle">DynamoDB</text>
+  <rect x="402.0" y="169.0" width="85.6" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="444.8" y="183.5" font-size="10" fill="#394247" text-anchor="middle">Elasticsearch</text>
+  <text x="42.0" y="218.0" font-size="11" fill="#12181B" font-weight="700">Cloud</text>
+  <rect x="146.0" y="203.0" width="33.6" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="162.8" y="217.5" font-size="10" fill="#394247" text-anchor="middle">AWS</text>
+  <rect x="186.6" y="203.0" width="80.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="226.8" y="217.5" font-size="10" fill="#394247" text-anchor="middle">Google Cloud</text>
+  <rect x="274.0" y="203.0" width="64.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="306.4" y="217.5" font-size="10" fill="#394247" text-anchor="middle">Terraform</text>
+  <rect x="345.8" y="203.0" width="49.2" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="370.4" y="217.5" font-size="10" fill="#394247" text-anchor="middle">Docker</text>
+  <rect x="402.0" y="203.0" width="70.0" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="437.0" y="217.5" font-size="10" fill="#394247" text-anchor="middle">Kubernetes</text>
+  <text x="42.0" y="252.0" font-size="11" fill="#12181B" font-weight="700">Quality</text>
+  <rect x="146.0" y="237.0" width="54.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="173.2" y="251.5" font-size="10" fill="#394247" text-anchor="middle">JUnit 5</text>
+  <rect x="207.4" y="237.0" width="54.4" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="234.6" y="251.5" font-size="10" fill="#394247" text-anchor="middle">Mockito</text>
+  <rect x="268.8" y="237.0" width="49.2" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="293.4" y="251.5" font-size="10" fill="#394247" text-anchor="middle">JaCoCo</text>
+  <rect x="325.0" y="237.0" width="64.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="357.4" y="251.5" font-size="10" fill="#394247" text-anchor="middle">SonarQube</text>
+  <rect x="396.8" y="237.0" width="64.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="429.2" y="251.5" font-size="10" fill="#394247" text-anchor="middle">GitLab CI</text>
+  <rect x="468.6" y="237.0" width="90.8" height="22.0" rx="11.0" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="514.0" y="251.5" font-size="10" fill="#394247" text-anchor="middle">GitHub Actions</text>
+  </g>
 </svg>

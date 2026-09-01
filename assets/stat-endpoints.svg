@@ -1,26 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="236" height="152" viewBox="0 0 236 152" role="img" aria-label="50 rest endpoints, one backend.">
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="156" viewBox="0 0 238 156" role="img" aria-label="50 rest endpoints, one backend.">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer>
     </filter>
-    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    <filter id="lift" x="-16%" y="-20%" width="132%" height="144%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="4" flood-color="#4A4132" flood-opacity="0.22"/>
     </filter>
+    <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.045" stroke-width="0.6"/>
+    </pattern>
   </defs>
-  <rect width="236" height="152" fill="#E4DAC6"/>
   <g font-family="Georgia, 'Times New Roman', serif">
-  <rect x="10.0" y="10.0" width="216.0" height="132.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <rect x="10.0" y="10.0" width="216.0" height="34.0" rx="11" fill="#F4EFE3"/>
-  <rect x="10.0" y="27.0" width="216.0" height="17.0" rx="0" fill="#F4EFE3"/>
-  <line x1="10.0" y1="44.0" x2="226.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
-  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
-  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatCard /&gt;</text>
-  <text x="212.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[1]</text>
-  <text x="118.0" y="98.0" font-size="40" fill="#1155CC" font-weight="700" text-anchor="middle">50</text>
-  <text x="118.0" y="120.0" font-size="9" fill="#6B7378" text-anchor="middle" letter-spacing="1.5">REST ENDPOINTS</text>
-  <text x="118.0" y="136.0" font-size="9.5" fill="#948C7E" text-anchor="middle">one backend</text>
+  <path d="M 14.0,11.9 L 29.0,12.1 L 44.0,13.0 L 59.0,11.9 L 74.0,12.0 L 89.0,12.2 L 104.0,11.3 L 119.0,12.0 L 134.0,12.3 L 149.0,12.7 L 164.0,11.1 L 179.0,11.5 L 194.0,11.1 L 209.0,12.7 L 225.6,14.0 L 227.1,30.0 L 224.9,46.0 L 224.9,62.0 L 225.6,78.0 L 225.7,94.0 L 226.8,110.0 L 227.1,126.0 L 224.0,143.9 L 209.0,145.0 L 194.0,144.7 L 179.0,144.6 L 164.0,145.1 L 149.0,144.1 L 134.0,144.1 L 119.0,143.2 L 104.0,144.0 L 89.0,143.7 L 74.0,144.0 L 59.0,143.6 L 44.0,144.1 L 29.0,144.5 L 13.1,142.0 L 13.1,126.0 L 12.8,110.0 L 12.5,94.0 L 11.6,78.0 L 11.4,62.0 L 11.5,46.0 L 11.0,30.0 Z" fill="#FCF9F2" filter="url(#lift)"/>
+  <clipPath id="c11"><path d="M 14.0,11.9 L 29.0,12.1 L 44.0,13.0 L 59.0,11.9 L 74.0,12.0 L 89.0,12.2 L 104.0,11.3 L 119.0,12.0 L 134.0,12.3 L 149.0,12.7 L 164.0,11.1 L 179.0,11.5 L 194.0,11.1 L 209.0,12.7 L 225.6,14.0 L 227.1,30.0 L 224.9,46.0 L 224.9,62.0 L 225.6,78.0 L 225.7,94.0 L 226.8,110.0 L 227.1,126.0 L 224.0,143.9 L 209.0,145.0 L 194.0,144.7 L 179.0,144.6 L 164.0,145.1 L 149.0,144.1 L 134.0,144.1 L 119.0,143.2 L 104.0,144.0 L 89.0,143.7 L 74.0,144.0 L 59.0,143.6 L 44.0,144.1 L 29.0,144.5 L 13.1,142.0 L 13.1,126.0 L 12.8,110.0 L 12.5,94.0 L 11.6,78.0 L 11.4,62.0 L 11.5,46.0 L 11.0,30.0 Z"/></clipPath>
+  <g clip-path="url(#c11)">
+  <rect x="12.0" y="12.0" width="214.0" height="34.0" rx="0" fill="#F5F0E4"/>
+  <line x1="12.0" y1="46.0" x2="226.0" y2="46.0" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="12" y="12" width="214" height="132" fill="url(#laid)"/>
+  <rect x="12" y="12" width="214" height="132" filter="url(#grain)"/>
+  <line x1="12.0" y1="13.2" x2="226.0" y2="13.2" stroke="#FFFDF8" stroke-width="1.4"/>
+  <line x1="12.0" y1="142.8" x2="226.0" y2="142.8" stroke="#D9CFB9" stroke-width="1.4"/>
   </g>
-  <rect width="236" height="152" filter="url(#grain)"/>
+  <path d="M 14.0,11.9 L 29.0,12.1 L 44.0,13.0 L 59.0,11.9 L 74.0,12.0 L 89.0,12.2 L 104.0,11.3 L 119.0,12.0 L 134.0,12.3 L 149.0,12.7 L 164.0,11.1 L 179.0,11.5 L 194.0,11.1 L 209.0,12.7 L 225.6,14.0 L 227.1,30.0 L 224.9,46.0 L 224.9,62.0 L 225.6,78.0 L 225.7,94.0 L 226.8,110.0 L 227.1,126.0 L 224.0,143.9 L 209.0,145.0 L 194.0,144.7 L 179.0,144.6 L 164.0,145.1 L 149.0,144.1 L 134.0,144.1 L 119.0,143.2 L 104.0,144.0 L 89.0,143.7 L 74.0,144.0 L 59.0,143.6 L 44.0,144.1 L 29.0,144.5 L 13.1,142.0 L 13.1,126.0 L 12.8,110.0 L 12.5,94.0 L 11.6,78.0 L 11.4,62.0 L 11.5,46.0 L 11.0,30.0 Z" fill="none" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="27.0" y="25.5" width="7.0" height="7.0" rx="1" fill="#1155CC"/>
+  <text x="41.0" y="33.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatCard /&gt;</text>
+  <text x="211.0" y="32.5" font-size="9" fill="#A8563C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[1]</text>
+  <text x="119.0" y="102.0" font-size="42" fill="#1155CC" font-weight="700" text-anchor="middle">50</text>
+  <line x1="97.0" y1="114.0" x2="141.0" y2="114.0" stroke="#A8563C" stroke-width="1.6"/>
+  <text x="119.0" y="132.0" font-size="9" fill="#697176" text-anchor="middle" letter-spacing="1.6">REST ENDPOINTS</text>
+  <text x="119.0" y="147.0" font-size="9.5" fill="#96907F" text-anchor="middle">one backend</text>
+  </g>
 </svg>

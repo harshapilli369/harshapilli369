@@ -1,37 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="226" viewBox="0 0 490 226" role="img" aria-label="SmartCare (SAWS). Both clouds provisioned as code with Terraform and CloudFormation, rebuildable from a clean account. MFA stages two and three, booking Lambda, SQS to SNS. github.com/harshapilli369/saws-smartcare">
+<svg xmlns="http://www.w3.org/2000/svg" width="492" height="232" viewBox="0 0 492 232" role="img" aria-label="SmartCare (SAWS). Both clouds provisioned as code with Terraform and CloudFormation, rebuildable from a clean account. MFA stages two and three, booking Lambda, SQS to SNS. github.com/harshapilli369/saws-smartcare">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer>
     </filter>
-    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    <filter id="lift" x="-16%" y="-20%" width="132%" height="144%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="4" flood-color="#4A4132" flood-opacity="0.22"/>
     </filter>
+    <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.045" stroke-width="0.6"/>
+    </pattern>
   </defs>
-  <rect width="490" height="226" fill="#E4DAC6"/>
   <g font-family="Georgia, 'Times New Roman', serif">
-  <rect x="10.0" y="10.0" width="470.0" height="206.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <rect x="10.0" y="10.0" width="470.0" height="34.0" rx="11" fill="#F4EFE3"/>
-  <rect x="10.0" y="27.0" width="470.0" height="17.0" rx="0" fill="#F4EFE3"/>
-  <line x1="10.0" y1="44.0" x2="480.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
-  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
-  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard /&gt;</text>
-  <text x="466.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[1]</text>
-  <text x="32.0" y="74.0" font-size="16" fill="#12181B" font-weight="700">SmartCare (SAWS)</text>
-  <rect x="32.0" y="85.5" width="46.1" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="55.0" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">Python</text>
-  <rect x="85.1" y="85.5" width="32.0" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="101.1" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">AWS</text>
-  <rect x="124.1" y="85.5" width="32.0" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="140.1" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">GCP</text>
-  <rect x="163.2" y="85.5" width="60.1" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="193.2" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">Terraform</text>
-  <text x="32.0" y="124.0" font-size="11.5" fill="#3A4348">Both clouds provisioned as code with Terraform and</text>
-  <text x="32.0" y="141.0" font-size="11.5" fill="#3A4348">CloudFormation, rebuildable from a clean account. MFA</text>
-  <text x="32.0" y="158.0" font-size="11.5" fill="#3A4348">stages two and three, booking Lambda, SQS to SNS.</text>
-  <line x1="32.0" y1="186.0" x2="458.0" y2="186.0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="32.0" y="204.0" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">github.com/harshapilli369/saws-smartcare</text>
+  <path d="M 14.0,11.2 L 29.5,12.4 L 44.9,12.3 L 60.4,12.0 L 75.9,11.3 L 91.3,12.7 L 106.8,12.7 L 122.3,12.0 L 137.7,12.0 L 153.2,11.4 L 168.7,10.9 L 184.1,11.7 L 199.6,12.2 L 215.1,11.0 L 230.5,12.7 L 246.0,11.4 L 261.5,11.4 L 276.9,10.9 L 292.4,13.1 L 307.9,12.5 L 323.3,12.9 L 338.8,12.3 L 354.3,10.9 L 369.7,11.6 L 385.2,12.0 L 400.7,11.1 L 416.1,13.0 L 431.6,11.7 L 447.1,11.2 L 462.5,12.7 L 480.9,14.0 L 479.0,29.7 L 480.1,45.4 L 479.9,61.1 L 480.4,76.8 L 480.0,92.5 L 480.7,108.2 L 481.1,123.8 L 479.2,139.5 L 480.6,155.2 L 479.4,170.9 L 480.7,186.6 L 478.9,202.3 L 478.0,219.1 L 462.5,219.4 L 447.1,219.4 L 431.6,219.8 L 416.1,219.5 L 400.7,220.9 L 385.2,220.1 L 369.7,219.2 L 354.3,220.7 L 338.8,219.0 L 323.3,219.1 L 307.9,220.2 L 292.4,220.3 L 276.9,220.1 L 261.5,220.3 L 246.0,218.9 L 230.5,220.3 L 215.1,221.1 L 199.6,220.9 L 184.1,219.5 L 168.7,218.9 L 153.2,220.0 L 137.7,220.0 L 122.3,219.9 L 106.8,219.4 L 91.3,220.6 L 75.9,219.7 L 60.4,219.9 L 44.9,219.7 L 29.5,220.7 L 11.2,218.0 L 11.7,202.3 L 13.0,186.6 L 11.6,170.9 L 12.2,155.2 L 11.6,139.5 L 11.1,123.8 L 11.0,108.2 L 12.7,92.5 L 12.6,76.8 L 11.7,61.1 L 12.4,45.4 L 12.4,29.7 Z" fill="#FCF9F2" filter="url(#lift)"/>
+  <clipPath id="c21"><path d="M 14.0,11.2 L 29.5,12.4 L 44.9,12.3 L 60.4,12.0 L 75.9,11.3 L 91.3,12.7 L 106.8,12.7 L 122.3,12.0 L 137.7,12.0 L 153.2,11.4 L 168.7,10.9 L 184.1,11.7 L 199.6,12.2 L 215.1,11.0 L 230.5,12.7 L 246.0,11.4 L 261.5,11.4 L 276.9,10.9 L 292.4,13.1 L 307.9,12.5 L 323.3,12.9 L 338.8,12.3 L 354.3,10.9 L 369.7,11.6 L 385.2,12.0 L 400.7,11.1 L 416.1,13.0 L 431.6,11.7 L 447.1,11.2 L 462.5,12.7 L 480.9,14.0 L 479.0,29.7 L 480.1,45.4 L 479.9,61.1 L 480.4,76.8 L 480.0,92.5 L 480.7,108.2 L 481.1,123.8 L 479.2,139.5 L 480.6,155.2 L 479.4,170.9 L 480.7,186.6 L 478.9,202.3 L 478.0,219.1 L 462.5,219.4 L 447.1,219.4 L 431.6,219.8 L 416.1,219.5 L 400.7,220.9 L 385.2,220.1 L 369.7,219.2 L 354.3,220.7 L 338.8,219.0 L 323.3,219.1 L 307.9,220.2 L 292.4,220.3 L 276.9,220.1 L 261.5,220.3 L 246.0,218.9 L 230.5,220.3 L 215.1,221.1 L 199.6,220.9 L 184.1,219.5 L 168.7,218.9 L 153.2,220.0 L 137.7,220.0 L 122.3,219.9 L 106.8,219.4 L 91.3,220.6 L 75.9,219.7 L 60.4,219.9 L 44.9,219.7 L 29.5,220.7 L 11.2,218.0 L 11.7,202.3 L 13.0,186.6 L 11.6,170.9 L 12.2,155.2 L 11.6,139.5 L 11.1,123.8 L 11.0,108.2 L 12.7,92.5 L 12.6,76.8 L 11.7,61.1 L 12.4,45.4 L 12.4,29.7 Z"/></clipPath>
+  <g clip-path="url(#c21)">
+  <rect x="12.0" y="12.0" width="468.0" height="34.0" rx="0" fill="#F5F0E4"/>
+  <line x1="12.0" y1="46.0" x2="480.0" y2="46.0" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="12" y="12" width="468" height="208" fill="url(#laid)"/>
+  <rect x="12" y="12" width="468" height="208" filter="url(#grain)"/>
+  <line x1="12.0" y1="13.2" x2="480.0" y2="13.2" stroke="#FFFDF8" stroke-width="1.4"/>
+  <line x1="12.0" y1="218.8" x2="480.0" y2="218.8" stroke="#D9CFB9" stroke-width="1.4"/>
   </g>
-  <rect width="490" height="226" filter="url(#grain)"/>
+  <path d="M 14.0,11.2 L 29.5,12.4 L 44.9,12.3 L 60.4,12.0 L 75.9,11.3 L 91.3,12.7 L 106.8,12.7 L 122.3,12.0 L 137.7,12.0 L 153.2,11.4 L 168.7,10.9 L 184.1,11.7 L 199.6,12.2 L 215.1,11.0 L 230.5,12.7 L 246.0,11.4 L 261.5,11.4 L 276.9,10.9 L 292.4,13.1 L 307.9,12.5 L 323.3,12.9 L 338.8,12.3 L 354.3,10.9 L 369.7,11.6 L 385.2,12.0 L 400.7,11.1 L 416.1,13.0 L 431.6,11.7 L 447.1,11.2 L 462.5,12.7 L 480.9,14.0 L 479.0,29.7 L 480.1,45.4 L 479.9,61.1 L 480.4,76.8 L 480.0,92.5 L 480.7,108.2 L 481.1,123.8 L 479.2,139.5 L 480.6,155.2 L 479.4,170.9 L 480.7,186.6 L 478.9,202.3 L 478.0,219.1 L 462.5,219.4 L 447.1,219.4 L 431.6,219.8 L 416.1,219.5 L 400.7,220.9 L 385.2,220.1 L 369.7,219.2 L 354.3,220.7 L 338.8,219.0 L 323.3,219.1 L 307.9,220.2 L 292.4,220.3 L 276.9,220.1 L 261.5,220.3 L 246.0,218.9 L 230.5,220.3 L 215.1,221.1 L 199.6,220.9 L 184.1,219.5 L 168.7,218.9 L 153.2,220.0 L 137.7,220.0 L 122.3,219.9 L 106.8,219.4 L 91.3,220.6 L 75.9,219.7 L 60.4,219.9 L 44.9,219.7 L 29.5,220.7 L 11.2,218.0 L 11.7,202.3 L 13.0,186.6 L 11.6,170.9 L 12.2,155.2 L 11.6,139.5 L 11.1,123.8 L 11.0,108.2 L 12.7,92.5 L 12.6,76.8 L 11.7,61.1 L 12.4,45.4 L 12.4,29.7 Z" fill="none" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="27.0" y="25.5" width="7.0" height="7.0" rx="1" fill="#1155CC"/>
+  <text x="41.0" y="33.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard /&gt;</text>
+  <text x="465.0" y="32.5" font-size="9" fill="#A8563C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[1]</text>
+  <text x="36.0" y="78.0" font-size="16.5" fill="#12181B" font-weight="700">SmartCare (SAWS)</text>
+  <rect x="36.0" y="89.5" width="46.1" height="21.0" rx="10.5" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="59.0" y="103.2" font-size="9" fill="#394247" text-anchor="middle">Python</text>
+  <rect x="89.1" y="89.5" width="32.0" height="21.0" rx="10.5" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="105.1" y="103.2" font-size="9" fill="#394247" text-anchor="middle">AWS</text>
+  <rect x="128.1" y="89.5" width="32.0" height="21.0" rx="10.5" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="144.1" y="103.2" font-size="9" fill="#394247" text-anchor="middle">GCP</text>
+  <rect x="167.2" y="89.5" width="60.1" height="21.0" rx="10.5" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="197.2" y="103.2" font-size="9" fill="#394247" text-anchor="middle">Terraform</text>
+  <text x="36.0" y="128.0" font-size="11.5" fill="#394247">Both clouds provisioned as code with Terraform and</text>
+  <text x="36.0" y="145.0" font-size="11.5" fill="#394247">CloudFormation, rebuildable from a clean account. MFA</text>
+  <text x="36.0" y="162.0" font-size="11.5" fill="#394247">stages two and three, booking Lambda, SQS to SNS.</text>
+  <line x1="36.0" y1="190.0" x2="456.0" y2="190.0" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="36.0" y="208.0" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">github.com/harshapilli369/saws-smartcare</text>
+  </g>
 </svg>

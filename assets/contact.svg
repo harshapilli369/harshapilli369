@@ -1,29 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="122" viewBox="0 0 1000 122" role="img" aria-label="Contact: harshapilli369@gmail.com, linkedin.com/in/harsha-pilli-35209123a, Halifax, Nova Scotia.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="126" viewBox="0 0 1000 126" role="img" aria-label="Contact: harshapilli369@gmail.com, linkedin.com/in/harsha-pilli-35209123a, Halifax, Nova Scotia.">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer>
     </filter>
-    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    <filter id="lift" x="-16%" y="-20%" width="132%" height="144%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="4" flood-color="#4A4132" flood-opacity="0.22"/>
     </filter>
+    <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.045" stroke-width="0.6"/>
+    </pattern>
   </defs>
-  <rect width="1000" height="122" fill="#E4DAC6"/>
   <g font-family="Georgia, 'Times New Roman', serif">
-  <rect x="10.0" y="10.0" width="980.0" height="102.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <rect x="10.0" y="10.0" width="980.0" height="34.0" rx="11" fill="#F4EFE3"/>
-  <rect x="10.0" y="27.0" width="980.0" height="17.0" rx="0" fill="#F4EFE3"/>
-  <line x1="10.0" y1="44.0" x2="990.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
-  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
-  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Contact /&gt;</text>
-  <text x="976.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">2 actions</text>
-  <rect x="34.0" y="60.0" width="152.0" height="34.0" rx="8" fill="#1155CC"/>
-  <text x="110.0" y="82.0" font-size="13" fill="#FCFAF4" font-weight="700" text-anchor="middle">Email me</text>
-  <rect x="198.0" y="60.0" width="152.0" height="34.0" rx="8" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="274.0" y="82.0" font-size="13" fill="#12181B" font-weight="700" text-anchor="middle">LinkedIn</text>
-  <text x="966.0" y="76.0" font-size="11.5" fill="#3A4348" text-anchor="end">harshapilli369@gmail.com</text>
-  <text x="966.0" y="93.0" font-size="10" fill="#948C7E" text-anchor="end">Halifax, Nova Scotia · relocating anywhere in Canada</text>
+  <path d="M 14.0,12.3 L 29.2,12.6 L 44.4,12.7 L 59.6,13.0 L 74.8,12.6 L 89.9,13.0 L 105.1,10.9 L 120.3,11.9 L 135.5,13.0 L 150.7,12.3 L 165.9,12.9 L 181.1,11.1 L 196.2,11.9 L 211.4,11.4 L 226.6,12.1 L 241.8,12.2 L 257.0,10.9 L 272.2,11.3 L 287.4,11.5 L 302.6,13.0 L 317.8,12.6 L 332.9,11.2 L 348.1,12.7 L 363.3,11.2 L 378.5,12.3 L 393.7,11.1 L 408.9,10.9 L 424.1,12.9 L 439.2,11.3 L 454.4,11.3 L 469.6,13.1 L 484.8,12.9 L 500.0,11.5 L 515.2,13.1 L 530.4,12.1 L 545.6,12.4 L 560.8,11.3 L 575.9,13.0 L 591.1,12.4 L 606.3,13.1 L 621.5,12.9 L 636.7,11.5 L 651.9,11.7 L 667.1,11.2 L 682.2,11.2 L 697.4,11.0 L 712.6,11.5 L 727.8,12.2 L 743.0,10.9 L 758.2,12.4 L 773.4,11.6 L 788.6,11.6 L 803.8,12.7 L 818.9,12.0 L 834.1,11.6 L 849.3,12.0 L 864.5,12.5 L 879.7,11.0 L 894.9,13.1 L 910.1,10.9 L 925.2,12.6 L 940.4,12.8 L 955.6,10.9 L 970.8,12.7 L 988.3,14.0 L 987.8,30.3 L 989.1,46.7 L 989.0,63.0 L 988.7,79.3 L 987.0,95.7 L 986.0,114.7 L 970.8,113.4 L 955.6,113.0 L 940.4,113.0 L 925.2,114.4 L 910.1,114.3 L 894.9,113.9 L 879.7,113.4 L 864.5,114.9 L 849.3,113.4 L 834.1,113.3 L 818.9,113.2 L 803.8,115.1 L 788.6,113.0 L 773.4,114.9 L 758.2,114.4 L 743.0,113.7 L 727.8,113.0 L 712.6,114.4 L 697.4,113.0 L 682.2,113.9 L 667.1,114.4 L 651.9,114.4 L 636.7,114.7 L 621.5,115.0 L 606.3,114.8 L 591.1,113.6 L 575.9,112.9 L 560.8,114.8 L 545.6,115.0 L 530.4,112.9 L 515.2,113.9 L 500.0,114.2 L 484.8,114.6 L 469.6,113.8 L 454.4,113.2 L 439.2,114.1 L 424.1,114.2 L 408.9,115.0 L 393.7,113.0 L 378.5,115.1 L 363.3,114.0 L 348.1,113.2 L 332.9,114.8 L 317.8,113.5 L 302.6,113.0 L 287.4,113.7 L 272.2,113.3 L 257.0,114.9 L 241.8,114.2 L 226.6,114.8 L 211.4,113.2 L 196.2,114.5 L 181.1,114.1 L 165.9,112.9 L 150.7,113.2 L 135.5,112.9 L 120.3,114.1 L 105.1,114.0 L 89.9,113.5 L 74.8,114.0 L 59.6,114.5 L 44.4,114.2 L 29.2,114.8 L 11.7,112.0 L 13.1,95.7 L 13.1,79.3 L 12.3,63.0 L 12.0,46.7 L 11.6,30.3 Z" fill="#FCF9F2" filter="url(#lift)"/>
+  <clipPath id="c5"><path d="M 14.0,12.3 L 29.2,12.6 L 44.4,12.7 L 59.6,13.0 L 74.8,12.6 L 89.9,13.0 L 105.1,10.9 L 120.3,11.9 L 135.5,13.0 L 150.7,12.3 L 165.9,12.9 L 181.1,11.1 L 196.2,11.9 L 211.4,11.4 L 226.6,12.1 L 241.8,12.2 L 257.0,10.9 L 272.2,11.3 L 287.4,11.5 L 302.6,13.0 L 317.8,12.6 L 332.9,11.2 L 348.1,12.7 L 363.3,11.2 L 378.5,12.3 L 393.7,11.1 L 408.9,10.9 L 424.1,12.9 L 439.2,11.3 L 454.4,11.3 L 469.6,13.1 L 484.8,12.9 L 500.0,11.5 L 515.2,13.1 L 530.4,12.1 L 545.6,12.4 L 560.8,11.3 L 575.9,13.0 L 591.1,12.4 L 606.3,13.1 L 621.5,12.9 L 636.7,11.5 L 651.9,11.7 L 667.1,11.2 L 682.2,11.2 L 697.4,11.0 L 712.6,11.5 L 727.8,12.2 L 743.0,10.9 L 758.2,12.4 L 773.4,11.6 L 788.6,11.6 L 803.8,12.7 L 818.9,12.0 L 834.1,11.6 L 849.3,12.0 L 864.5,12.5 L 879.7,11.0 L 894.9,13.1 L 910.1,10.9 L 925.2,12.6 L 940.4,12.8 L 955.6,10.9 L 970.8,12.7 L 988.3,14.0 L 987.8,30.3 L 989.1,46.7 L 989.0,63.0 L 988.7,79.3 L 987.0,95.7 L 986.0,114.7 L 970.8,113.4 L 955.6,113.0 L 940.4,113.0 L 925.2,114.4 L 910.1,114.3 L 894.9,113.9 L 879.7,113.4 L 864.5,114.9 L 849.3,113.4 L 834.1,113.3 L 818.9,113.2 L 803.8,115.1 L 788.6,113.0 L 773.4,114.9 L 758.2,114.4 L 743.0,113.7 L 727.8,113.0 L 712.6,114.4 L 697.4,113.0 L 682.2,113.9 L 667.1,114.4 L 651.9,114.4 L 636.7,114.7 L 621.5,115.0 L 606.3,114.8 L 591.1,113.6 L 575.9,112.9 L 560.8,114.8 L 545.6,115.0 L 530.4,112.9 L 515.2,113.9 L 500.0,114.2 L 484.8,114.6 L 469.6,113.8 L 454.4,113.2 L 439.2,114.1 L 424.1,114.2 L 408.9,115.0 L 393.7,113.0 L 378.5,115.1 L 363.3,114.0 L 348.1,113.2 L 332.9,114.8 L 317.8,113.5 L 302.6,113.0 L 287.4,113.7 L 272.2,113.3 L 257.0,114.9 L 241.8,114.2 L 226.6,114.8 L 211.4,113.2 L 196.2,114.5 L 181.1,114.1 L 165.9,112.9 L 150.7,113.2 L 135.5,112.9 L 120.3,114.1 L 105.1,114.0 L 89.9,113.5 L 74.8,114.0 L 59.6,114.5 L 44.4,114.2 L 29.2,114.8 L 11.7,112.0 L 13.1,95.7 L 13.1,79.3 L 12.3,63.0 L 12.0,46.7 L 11.6,30.3 Z"/></clipPath>
+  <g clip-path="url(#c5)">
+  <rect x="12.0" y="12.0" width="976.0" height="34.0" rx="0" fill="#F5F0E4"/>
+  <line x1="12.0" y1="46.0" x2="988.0" y2="46.0" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="12" y="12" width="976" height="102" fill="url(#laid)"/>
+  <rect x="12" y="12" width="976" height="102" filter="url(#grain)"/>
+  <line x1="12.0" y1="13.2" x2="988.0" y2="13.2" stroke="#FFFDF8" stroke-width="1.4"/>
+  <line x1="12.0" y1="112.8" x2="988.0" y2="112.8" stroke="#D9CFB9" stroke-width="1.4"/>
   </g>
-  <rect width="1000" height="122" filter="url(#grain)"/>
+  <path d="M 14.0,12.3 L 29.2,12.6 L 44.4,12.7 L 59.6,13.0 L 74.8,12.6 L 89.9,13.0 L 105.1,10.9 L 120.3,11.9 L 135.5,13.0 L 150.7,12.3 L 165.9,12.9 L 181.1,11.1 L 196.2,11.9 L 211.4,11.4 L 226.6,12.1 L 241.8,12.2 L 257.0,10.9 L 272.2,11.3 L 287.4,11.5 L 302.6,13.0 L 317.8,12.6 L 332.9,11.2 L 348.1,12.7 L 363.3,11.2 L 378.5,12.3 L 393.7,11.1 L 408.9,10.9 L 424.1,12.9 L 439.2,11.3 L 454.4,11.3 L 469.6,13.1 L 484.8,12.9 L 500.0,11.5 L 515.2,13.1 L 530.4,12.1 L 545.6,12.4 L 560.8,11.3 L 575.9,13.0 L 591.1,12.4 L 606.3,13.1 L 621.5,12.9 L 636.7,11.5 L 651.9,11.7 L 667.1,11.2 L 682.2,11.2 L 697.4,11.0 L 712.6,11.5 L 727.8,12.2 L 743.0,10.9 L 758.2,12.4 L 773.4,11.6 L 788.6,11.6 L 803.8,12.7 L 818.9,12.0 L 834.1,11.6 L 849.3,12.0 L 864.5,12.5 L 879.7,11.0 L 894.9,13.1 L 910.1,10.9 L 925.2,12.6 L 940.4,12.8 L 955.6,10.9 L 970.8,12.7 L 988.3,14.0 L 987.8,30.3 L 989.1,46.7 L 989.0,63.0 L 988.7,79.3 L 987.0,95.7 L 986.0,114.7 L 970.8,113.4 L 955.6,113.0 L 940.4,113.0 L 925.2,114.4 L 910.1,114.3 L 894.9,113.9 L 879.7,113.4 L 864.5,114.9 L 849.3,113.4 L 834.1,113.3 L 818.9,113.2 L 803.8,115.1 L 788.6,113.0 L 773.4,114.9 L 758.2,114.4 L 743.0,113.7 L 727.8,113.0 L 712.6,114.4 L 697.4,113.0 L 682.2,113.9 L 667.1,114.4 L 651.9,114.4 L 636.7,114.7 L 621.5,115.0 L 606.3,114.8 L 591.1,113.6 L 575.9,112.9 L 560.8,114.8 L 545.6,115.0 L 530.4,112.9 L 515.2,113.9 L 500.0,114.2 L 484.8,114.6 L 469.6,113.8 L 454.4,113.2 L 439.2,114.1 L 424.1,114.2 L 408.9,115.0 L 393.7,113.0 L 378.5,115.1 L 363.3,114.0 L 348.1,113.2 L 332.9,114.8 L 317.8,113.5 L 302.6,113.0 L 287.4,113.7 L 272.2,113.3 L 257.0,114.9 L 241.8,114.2 L 226.6,114.8 L 211.4,113.2 L 196.2,114.5 L 181.1,114.1 L 165.9,112.9 L 150.7,113.2 L 135.5,112.9 L 120.3,114.1 L 105.1,114.0 L 89.9,113.5 L 74.8,114.0 L 59.6,114.5 L 44.4,114.2 L 29.2,114.8 L 11.7,112.0 L 13.1,95.7 L 13.1,79.3 L 12.3,63.0 L 12.0,46.7 L 11.6,30.3 Z" fill="none" stroke="#DCD3BF" stroke-width="1"/>
+  <rect x="27.0" y="25.5" width="7.0" height="7.0" rx="1" fill="#1155CC"/>
+  <text x="41.0" y="33.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Contact /&gt;</text>
+  <text x="973.0" y="32.5" font-size="9" fill="#A8563C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">2 actions</text>
+  <rect x="42.0" y="62.0" width="152.0" height="34.0" rx="3" fill="#1155CC"/>
+  <text x="118.0" y="84.0" font-size="13" fill="#FCF9F2" font-weight="700" text-anchor="middle">Email me</text>
+  <rect x="206.0" y="62.0" width="152.0" height="34.0" rx="3" fill="#F6F1E5" stroke="#DCD3BF" stroke-width="1"/>
+  <text x="282.0" y="84.0" font-size="13" fill="#12181B" font-weight="700" text-anchor="middle">LinkedIn</text>
+  <text x="958.0" y="78.0" font-size="11.5" fill="#394247" text-anchor="end">harshapilli369@gmail.com</text>
+  <text x="958.0" y="95.0" font-size="10" fill="#96907F" text-anchor="end">Halifax, Nova Scotia · relocating anywhere in Canada</text>
+  </g>
 </svg>
