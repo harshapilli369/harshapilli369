@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="122" viewBox="0 0 1000 122" role="img" aria-label="Contact: harshapilli369@gmail.com, linkedin.com/in/harsha-pilli-35209123a, Halifax, Nova Scotia.">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="122" fill="#E4DAC6"/>
+  <g font-family="Georgia, 'Times New Roman', serif">
+  <rect x="10.0" y="10.0" width="980.0" height="102.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="10.0" y="10.0" width="980.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="10.0" y="27.0" width="980.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="10.0" y1="44.0" x2="990.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
+  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Contact /&gt;</text>
+  <text x="976.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">2 actions</text>
+  <rect x="34.0" y="60.0" width="152.0" height="34.0" rx="8" fill="#1155CC"/>
+  <text x="110.0" y="82.0" font-size="13" fill="#FCFAF4" font-weight="700" text-anchor="middle">Email me</text>
+  <rect x="198.0" y="60.0" width="152.0" height="34.0" rx="8" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="274.0" y="82.0" font-size="13" fill="#12181B" font-weight="700" text-anchor="middle">LinkedIn</text>
+  <text x="966.0" y="76.0" font-size="11.5" fill="#3A4348" text-anchor="end">harshapilli369@gmail.com</text>
+  <text x="966.0" y="93.0" font-size="10" fill="#948C7E" text-anchor="end">Halifax, Nova Scotia · relocating anywhere in Canada</text>
+  </g>
+  <rect width="1000" height="122" filter="url(#grain)"/>
+</svg>

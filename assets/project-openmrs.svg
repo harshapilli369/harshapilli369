@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="226" viewBox="0 0 490 226" role="img" aria-label="OpenMRS Core. Six categories of SonarCloud code smell cleared across 16 files, +539/-134 over nine commits, held to project conventions through maintainer walkthrough review. Open pull request #5937">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="490" height="226" fill="#E4DAC6"/>
+  <g font-family="Georgia, 'Times New Roman', serif">
+  <rect x="10.0" y="10.0" width="470.0" height="206.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="10.0" y="10.0" width="470.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="10.0" y="27.0" width="470.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="10.0" y1="44.0" x2="480.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
+  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard /&gt;</text>
+  <text x="466.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[2]</text>
+  <text x="32.0" y="74.0" font-size="16" fill="#12181B" font-weight="700">OpenMRS Core</text>
+  <rect x="32.0" y="85.5" width="36.7" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="50.4" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">Java</text>
+  <rect x="75.7" y="85.5" width="60.1" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="105.8" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">Hibernate</text>
+  <rect x="142.8" y="85.5" width="64.8" height="21.0" rx="10.5" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="175.2" y="99.2" font-size="9" fill="#3A4348" text-anchor="middle">SonarCloud</text>
+  <text x="32.0" y="124.0" font-size="11.5" fill="#3A4348">Six categories of SonarCloud code smell cleared across</text>
+  <text x="32.0" y="141.0" font-size="11.5" fill="#3A4348">16 files, +539/-134 over nine commits, held to project</text>
+  <text x="32.0" y="158.0" font-size="11.5" fill="#3A4348">conventions through maintainer walkthrough review.</text>
+  <line x1="32.0" y1="186.0" x2="458.0" y2="186.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="32.0" y="204.0" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">Open pull request #5937</text>
+  </g>
+  <rect width="490" height="226" filter="url(#grain)"/>
+</svg>

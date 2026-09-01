@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="272" viewBox="0 0 1000 272" role="img" aria-label="Harsha Pilli, Java and Spring Boot developer. Three years of production delivery before the degree, now completing a Master of Applied Computer Science at Dalhousie University in Halifax. Available for a 4 or 8 month developer co-op from January 2027.">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="272" fill="#E4DAC6"/>
+  <g font-family="Georgia, 'Times New Roman', serif">
+  <rect x="10.0" y="10.0" width="980.0" height="252.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="10.0" y="10.0" width="980.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="10.0" y="27.0" width="980.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="10.0" y1="44.0" x2="990.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
+  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Hero /&gt;</text>
+  <text x="976.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">props: 6</text>
+  <rect x="36.0" y="66.0" width="208.0" height="23.0" rx="11.5" fill="#E3E9F6"/>
+  <text x="140.0" y="81.0" font-size="8.8" fill="#1155CC" text-anchor="middle" letter-spacing="1.4">AVAILABLE JANUARY 2027</text>
+  <text x="36.0" y="136.0" font-size="40" fill="#12181B" font-weight="700">Harsha Pilli</text>
+  <text x="36.0" y="160.0" font-size="13.5" fill="#6B7378">Java · Spring Boot · REST APIs · Cloud</text>
+  <text x="36.0" y="190.0" font-size="12" fill="#3A4348">Three years of production delivery before the degree, not after it. Now</text>
+  <text x="36.0" y="208.0" font-size="12" fill="#3A4348">completing a Master of Applied Computer Science at Dalhousie University in</text>
+  <text x="36.0" y="226.0" font-size="12" fill="#3A4348">Halifax, and looking for a 4- or 8-month developer co-op from January 2027.</text>
+  <rect x="678.0" y="64.0" width="286.0" height="186.0" rx="8" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="694.0" y="86.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;</text>
+  <text x="700.0" y="86.0" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">Developer</text>
+  <text x="694.0" y="103.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  name</text>
+  <text x="730.0" y="103.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
+  <text x="736.0" y="103.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"Harsha Pilli"</text>
+  <text x="694.0" y="120.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  role</text>
+  <text x="730.0" y="120.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
+  <text x="736.0" y="120.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"Backend Developer"</text>
+  <text x="694.0" y="137.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  stack</text>
+  <text x="736.0" y="137.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={[</text>
+  <text x="754.0" y="137.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">'Java 17'</text>
+  <text x="808.0" y="137.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">,</text>
+  <text x="694.0" y="154.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">    'Spring Boot'</text>
+  <text x="796.0" y="154.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">, </text>
+  <text x="808.0" y="154.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">'AWS'</text>
+  <text x="838.0" y="154.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">]}</text>
+  <text x="694.0" y="171.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  experience</text>
+  <text x="766.0" y="171.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={</text>
+  <text x="778.0" y="171.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">3</text>
+  <text x="784.0" y="171.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">}</text>
+  <text x="694.0" y="188.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  available</text>
+  <text x="760.0" y="188.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
+  <text x="766.0" y="188.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"2027-01"</text>
+  <text x="694.0" y="205.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  relocate</text>
+  <text x="754.0" y="205.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={</text>
+  <text x="766.0" y="205.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">true</text>
+  <text x="790.0" y="205.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">}</text>
+  <text x="694.0" y="222.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">/&gt;</text>
+  </g>
+  <rect width="1000" height="272" filter="url(#grain)"/>
+</svg>

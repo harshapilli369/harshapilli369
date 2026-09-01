@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="152" viewBox="0 0 236 152" role="img" aria-label="535 unit tests, one project.">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+    <filter id="lift" x="-14%" y="-18%" width="128%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="236" height="152" fill="#E4DAC6"/>
+  <g font-family="Georgia, 'Times New Roman', serif">
+  <rect x="10.0" y="10.0" width="216.0" height="132.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="10.0" y="10.0" width="216.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="10.0" y="27.0" width="216.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="10.0" y1="44.0" x2="226.0" y2="44.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="24.0" y="23.5" width="7.0" height="7.0" rx="2" fill="#1155CC"/>
+  <text x="38.0" y="31.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatCard /&gt;</text>
+  <text x="212.0" y="30.5" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[0]</text>
+  <text x="118.0" y="98.0" font-size="40" fill="#1155CC" font-weight="700" text-anchor="middle">535</text>
+  <text x="118.0" y="120.0" font-size="9" fill="#6B7378" text-anchor="middle" letter-spacing="1.5">UNIT TESTS</text>
+  <text x="118.0" y="136.0" font-size="9.5" fill="#948C7E" text-anchor="middle">one project</text>
+  </g>
+  <rect width="236" height="152" filter="url(#grain)"/>
+</svg>
