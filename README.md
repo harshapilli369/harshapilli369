@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/chrome.svg" width="98%" alt="github.com/harshapilli369, available January 2027"></p>
+<p align="center"><img src="./assets/nav.svg" width="98%" alt="Harsha Pilli: profile, work, stack, contact. Available January 2027"></p>
 
 <p align="center"><img src="./assets/hero.svg" width="98%" alt="Harsha Pilli, Java and Spring Boot developer. Three years of production delivery before the degree, now completing a Master of Applied Computer Science at Dalhousie University in Halifax. Available for a 4- or 8-month developer co-op from January 2027."></p>
 

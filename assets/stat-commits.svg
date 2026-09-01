@@ -1,35 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="238" height="156" viewBox="0 0 238 156" role="img" aria-label="727 commits, this year.">
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="162" viewBox="0 0 240 162" role="img" aria-label="727 commits, this year.">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
     </filter>
-    <filter id="lift" x="-16%" y="-20%" width="132%" height="144%">
-      <feDropShadow dx="0" dy="2.5" stdDeviation="4" flood-color="#4A4132" flood-opacity="0.22"/>
+    <filter id="elev" x="-18%" y="-22%" width="136%" height="150%">
+      <feDropShadow in="SourceGraphic" dx="0" dy="1" stdDeviation="1.2" flood-color="#3A3226" flood-opacity="0.10" result="s1"/>
+      <feDropShadow in="s1" dx="0" dy="7" stdDeviation="10" flood-color="#3A3226" flood-opacity="0.13"/>
+    </filter>
+    <filter id="raise" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#3A3226" flood-opacity="0.16"/>
     </filter>
     <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.045" stroke-width="0.6"/>
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.04" stroke-width="0.6"/>
     </pattern>
   </defs>
   <g font-family="Georgia, 'Times New Roman', serif">
-  <path d="M 14.0,11.4 L 29.0,12.4 L 44.0,12.4 L 59.0,12.8 L 74.0,11.3 L 89.0,11.4 L 104.0,11.2 L 119.0,11.4 L 134.0,12.5 L 149.0,11.1 L 164.0,12.1 L 179.0,11.3 L 194.0,11.5 L 209.0,11.8 L 225.2,14.0 L 225.8,30.0 L 227.1,46.0 L 226.5,62.0 L 226.8,78.0 L 225.1,94.0 L 225.3,110.0 L 225.3,126.0 L 224.0,143.2 L 209.0,143.4 L 194.0,143.0 L 179.0,143.3 L 164.0,144.6 L 149.0,143.2 L 134.0,144.0 L 119.0,143.4 L 104.0,143.9 L 89.0,144.2 L 74.0,144.3 L 59.0,144.2 L 44.0,144.4 L 29.0,144.9 L 12.7,142.0 L 12.7,126.0 L 13.1,110.0 L 12.4,94.0 L 12.1,78.0 L 12.6,62.0 L 11.2,46.0 L 12.4,30.0 Z" fill="#FCF9F2" filter="url(#lift)"/>
-  <clipPath id="c13"><path d="M 14.0,11.4 L 29.0,12.4 L 44.0,12.4 L 59.0,12.8 L 74.0,11.3 L 89.0,11.4 L 104.0,11.2 L 119.0,11.4 L 134.0,12.5 L 149.0,11.1 L 164.0,12.1 L 179.0,11.3 L 194.0,11.5 L 209.0,11.8 L 225.2,14.0 L 225.8,30.0 L 227.1,46.0 L 226.5,62.0 L 226.8,78.0 L 225.1,94.0 L 225.3,110.0 L 225.3,126.0 L 224.0,143.2 L 209.0,143.4 L 194.0,143.0 L 179.0,143.3 L 164.0,144.6 L 149.0,143.2 L 134.0,144.0 L 119.0,143.4 L 104.0,143.9 L 89.0,144.2 L 74.0,144.3 L 59.0,144.2 L 44.0,144.4 L 29.0,144.9 L 12.7,142.0 L 12.7,126.0 L 13.1,110.0 L 12.4,94.0 L 12.1,78.0 L 12.6,62.0 L 11.2,46.0 L 12.4,30.0 Z"/></clipPath>
-  <g clip-path="url(#c13)">
-  <rect x="12.0" y="12.0" width="214.0" height="34.0" rx="0" fill="#F5F0E4"/>
-  <line x1="12.0" y1="46.0" x2="226.0" y2="46.0" stroke="#DCD3BF" stroke-width="1"/>
-  <rect x="12" y="12" width="214" height="132" fill="url(#laid)"/>
-  <rect x="12" y="12" width="214" height="132" filter="url(#grain)"/>
-  <line x1="12.0" y1="13.2" x2="226.0" y2="13.2" stroke="#FFFDF8" stroke-width="1.4"/>
-  <line x1="12.0" y1="142.8" x2="226.0" y2="142.8" stroke="#D9CFB9" stroke-width="1.4"/>
+  <path d="M 14.00,36.00 L 14.04,27.31 L 14.17,24.56 L 14.38,22.59 L 14.69,21.02 L 15.08,19.72 L 15.57,18.61 L 16.15,17.66 L 16.85,16.85 L 17.66,16.15 L 18.61,15.57 L 19.72,15.08 L 21.02,14.69 L 22.59,14.38 L 24.56,14.17 L 27.31,14.04 L 36.00,14.00 L 204.00,14.00 L 212.69,14.04 L 215.44,14.17 L 217.41,14.38 L 218.98,14.69 L 220.28,15.08 L 221.39,15.57 L 222.34,16.15 L 223.15,16.85 L 223.85,17.66 L 224.43,18.61 L 224.92,19.72 L 225.31,21.02 L 225.62,22.59 L 225.83,24.56 L 225.96,27.31 L 226.00,36.00 L 226.00,126.00 L 225.96,134.69 L 225.83,137.44 L 225.62,139.41 L 225.31,140.98 L 224.92,142.28 L 224.43,143.39 L 223.85,144.34 L 223.15,145.15 L 222.34,145.85 L 221.39,146.43 L 220.28,146.92 L 218.98,147.31 L 217.41,147.62 L 215.44,147.83 L 212.69,147.96 L 204.00,148.00 L 36.00,148.00 L 27.31,147.96 L 24.56,147.83 L 22.59,147.62 L 21.02,147.31 L 19.72,146.92 L 18.61,146.43 L 17.66,145.85 L 16.85,145.15 L 16.15,144.34 L 15.57,143.39 L 15.08,142.28 L 14.69,140.98 L 14.38,139.41 L 14.17,137.44 L 14.04,134.69 L 14.00,126.00 Z" fill="#FBF7EE" filter="url(#elev)"/>
+  <clipPath id="clips3"><path d="M 14.00,36.00 L 14.04,27.31 L 14.17,24.56 L 14.38,22.59 L 14.69,21.02 L 15.08,19.72 L 15.57,18.61 L 16.15,17.66 L 16.85,16.85 L 17.66,16.15 L 18.61,15.57 L 19.72,15.08 L 21.02,14.69 L 22.59,14.38 L 24.56,14.17 L 27.31,14.04 L 36.00,14.00 L 204.00,14.00 L 212.69,14.04 L 215.44,14.17 L 217.41,14.38 L 218.98,14.69 L 220.28,15.08 L 221.39,15.57 L 222.34,16.15 L 223.15,16.85 L 223.85,17.66 L 224.43,18.61 L 224.92,19.72 L 225.31,21.02 L 225.62,22.59 L 225.83,24.56 L 225.96,27.31 L 226.00,36.00 L 226.00,126.00 L 225.96,134.69 L 225.83,137.44 L 225.62,139.41 L 225.31,140.98 L 224.92,142.28 L 224.43,143.39 L 223.85,144.34 L 223.15,145.15 L 222.34,145.85 L 221.39,146.43 L 220.28,146.92 L 218.98,147.31 L 217.41,147.62 L 215.44,147.83 L 212.69,147.96 L 204.00,148.00 L 36.00,148.00 L 27.31,147.96 L 24.56,147.83 L 22.59,147.62 L 21.02,147.31 L 19.72,146.92 L 18.61,146.43 L 17.66,145.85 L 16.85,145.15 L 16.15,144.34 L 15.57,143.39 L 15.08,142.28 L 14.69,140.98 L 14.38,139.41 L 14.17,137.44 L 14.04,134.69 L 14.00,126.00 Z"/></clipPath>
+  <g clip-path="url(#clips3)">
+  <rect x="14" y="14" width="212" height="134" fill="url(#laid)"/>
+  <rect x="14" y="14" width="212" height="134" filter="url(#grain)"/>
+  <line x1="14.0" y1="15.2" x2="226.0" y2="15.2" stroke="#FFFEFA" stroke-width="1.4"/>
+  <line x1="14.0" y1="146.8" x2="226.0" y2="146.8" stroke="#DFD5C0" stroke-width="1.4"/>
   </g>
-  <path d="M 14.0,11.4 L 29.0,12.4 L 44.0,12.4 L 59.0,12.8 L 74.0,11.3 L 89.0,11.4 L 104.0,11.2 L 119.0,11.4 L 134.0,12.5 L 149.0,11.1 L 164.0,12.1 L 179.0,11.3 L 194.0,11.5 L 209.0,11.8 L 225.2,14.0 L 225.8,30.0 L 227.1,46.0 L 226.5,62.0 L 226.8,78.0 L 225.1,94.0 L 225.3,110.0 L 225.3,126.0 L 224.0,143.2 L 209.0,143.4 L 194.0,143.0 L 179.0,143.3 L 164.0,144.6 L 149.0,143.2 L 134.0,144.0 L 119.0,143.4 L 104.0,143.9 L 89.0,144.2 L 74.0,144.3 L 59.0,144.2 L 44.0,144.4 L 29.0,144.9 L 12.7,142.0 L 12.7,126.0 L 13.1,110.0 L 12.4,94.0 L 12.1,78.0 L 12.6,62.0 L 11.2,46.0 L 12.4,30.0 Z" fill="none" stroke="#DCD3BF" stroke-width="1"/>
-  <rect x="27.0" y="25.5" width="7.0" height="7.0" rx="1" fill="#1155CC"/>
-  <text x="41.0" y="33.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatCard /&gt;</text>
-  <text x="211.0" y="32.5" font-size="9" fill="#A8563C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[3]</text>
-  <text x="119.0" y="102.0" font-size="42" fill="#1155CC" font-weight="700" text-anchor="middle">727</text>
-  <line x1="97.0" y1="114.0" x2="141.0" y2="114.0" stroke="#A8563C" stroke-width="1.6"/>
-  <text x="119.0" y="132.0" font-size="9" fill="#697176" text-anchor="middle" letter-spacing="1.6">COMMITS</text>
-  <text x="119.0" y="147.0" font-size="9.5" fill="#96907F" text-anchor="middle">this year</text>
+  <path d="M 14.00,36.00 L 14.04,27.31 L 14.17,24.56 L 14.38,22.59 L 14.69,21.02 L 15.08,19.72 L 15.57,18.61 L 16.15,17.66 L 16.85,16.85 L 17.66,16.15 L 18.61,15.57 L 19.72,15.08 L 21.02,14.69 L 22.59,14.38 L 24.56,14.17 L 27.31,14.04 L 36.00,14.00 L 204.00,14.00 L 212.69,14.04 L 215.44,14.17 L 217.41,14.38 L 218.98,14.69 L 220.28,15.08 L 221.39,15.57 L 222.34,16.15 L 223.15,16.85 L 223.85,17.66 L 224.43,18.61 L 224.92,19.72 L 225.31,21.02 L 225.62,22.59 L 225.83,24.56 L 225.96,27.31 L 226.00,36.00 L 226.00,126.00 L 225.96,134.69 L 225.83,137.44 L 225.62,139.41 L 225.31,140.98 L 224.92,142.28 L 224.43,143.39 L 223.85,144.34 L 223.15,145.15 L 222.34,145.85 L 221.39,146.43 L 220.28,146.92 L 218.98,147.31 L 217.41,147.62 L 215.44,147.83 L 212.69,147.96 L 204.00,148.00 L 36.00,148.00 L 27.31,147.96 L 24.56,147.83 L 22.59,147.62 L 21.02,147.31 L 19.72,146.92 L 18.61,146.43 L 17.66,145.85 L 16.85,145.15 L 16.15,144.34 L 15.57,143.39 L 15.08,142.28 L 14.69,140.98 L 14.38,139.41 L 14.17,137.44 L 14.04,134.69 L 14.00,126.00 Z" fill="none" stroke="#000000" stroke-opacity="0.06" stroke-width="1"/>
+  <text x="40.0" y="39.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatCard /&gt;</text>
+  <text x="200.0" y="38.5" font-size="9.5" fill="#A8563C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" text-anchor="end">[3]</text>
+  <line x1="34.0" y1="54.0" x2="206.0" y2="54.0" stroke="#000000" stroke-opacity="0.07" stroke-width="1"/>
+  <text x="120.0" y="106.0" font-size="42" fill="#1155CC" font-weight="700" text-anchor="middle">727</text>
+  <line x1="100.0" y1="118.0" x2="140.0" y2="118.0" stroke="#A8563C" stroke-width="1.8"/>
+  <text x="120.0" y="136.0" font-size="9" fill="#697176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle" letter-spacing="1.5">COMMITS</text>
+  <text x="120.0" y="151.0" font-size="10" fill="#96907F" text-anchor="middle">this year</text>
   </g>
 </svg>
