@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="68" viewBox="0 0 320 68" role="img" aria-label="AWS Certified Cloud Practitioner badge on Credly">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+    <filter id="elev" x="-18%" y="-22%" width="136%" height="150%">
+      <feDropShadow in="SourceGraphic" dx="0" dy="1" stdDeviation="1.2" flood-color="#3A3226" flood-opacity="0.10" result="s1"/>
+      <feDropShadow in="s1" dx="0" dy="7" stdDeviation="10" flood-color="#3A3226" flood-opacity="0.13"/>
+    </filter>
+    <filter id="raise" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#3A3226" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.04" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+  <g font-family="Georgia, 'Times New Roman', serif">
+  <path d="M 14.00,34.00 L 14.04,26.10 L 14.15,23.60 L 14.35,21.81 L 14.62,20.38 L 14.98,19.20 L 15.42,18.19 L 15.96,17.33 L 16.59,16.59 L 17.33,15.96 L 18.19,15.42 L 19.20,14.98 L 20.38,14.62 L 21.81,14.35 L 23.60,14.15 L 26.10,14.04 L 34.00,14.00 L 286.00,14.00 L 293.90,14.04 L 296.40,14.15 L 298.19,14.35 L 299.62,14.62 L 300.80,14.98 L 301.81,15.42 L 302.67,15.96 L 303.41,16.59 L 304.04,17.33 L 304.58,18.19 L 305.02,19.20 L 305.38,20.38 L 305.65,21.81 L 305.85,23.60 L 305.96,26.10 L 306.00,34.00 L 306.00,34.00 L 305.96,41.90 L 305.85,44.40 L 305.65,46.19 L 305.38,47.62 L 305.02,48.80 L 304.58,49.81 L 304.04,50.67 L 303.41,51.41 L 302.67,52.04 L 301.81,52.58 L 300.80,53.02 L 299.62,53.38 L 298.19,53.65 L 296.40,53.85 L 293.90,53.96 L 286.00,54.00 L 34.00,54.00 L 26.10,53.96 L 23.60,53.85 L 21.81,53.65 L 20.38,53.38 L 19.20,53.02 L 18.19,52.58 L 17.33,52.04 L 16.59,51.41 L 15.96,50.67 L 15.42,49.81 L 14.98,48.80 L 14.62,47.62 L 14.35,46.19 L 14.15,44.40 L 14.04,41.90 L 14.00,34.00 Z" fill="#FBF7EE" filter="url(#elev)"/>
+  <path d="M 14.00,34.00 L 14.04,26.10 L 14.15,23.60 L 14.35,21.81 L 14.62,20.38 L 14.98,19.20 L 15.42,18.19 L 15.96,17.33 L 16.59,16.59 L 17.33,15.96 L 18.19,15.42 L 19.20,14.98 L 20.38,14.62 L 21.81,14.35 L 23.60,14.15 L 26.10,14.04 L 34.00,14.00 L 286.00,14.00 L 293.90,14.04 L 296.40,14.15 L 298.19,14.35 L 299.62,14.62 L 300.80,14.98 L 301.81,15.42 L 302.67,15.96 L 303.41,16.59 L 304.04,17.33 L 304.58,18.19 L 305.02,19.20 L 305.38,20.38 L 305.65,21.81 L 305.85,23.60 L 305.96,26.10 L 306.00,34.00 L 306.00,34.00 L 305.96,41.90 L 305.85,44.40 L 305.65,46.19 L 305.38,47.62 L 305.02,48.80 L 304.58,49.81 L 304.04,50.67 L 303.41,51.41 L 302.67,52.04 L 301.81,52.58 L 300.80,53.02 L 299.62,53.38 L 298.19,53.65 L 296.40,53.85 L 293.90,53.96 L 286.00,54.00 L 34.00,54.00 L 26.10,53.96 L 23.60,53.85 L 21.81,53.65 L 20.38,53.38 L 19.20,53.02 L 18.19,52.58 L 17.33,52.04 L 16.59,51.41 L 15.96,50.67 L 15.42,49.81 L 14.98,48.80 L 14.62,47.62 L 14.35,46.19 L 14.15,44.40 L 14.04,41.90 L 14.00,34.00 Z" fill="none" stroke="#000000" stroke-opacity="0.06" stroke-width="1"/>
+  <text x="160.0" y="39.0" font-size="13.5" fill="#12181B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="middle">AWS Certified Cloud Practitioner</text>
+  </g>
+</svg>

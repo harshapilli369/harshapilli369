@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="68" viewBox="0 0 240 68" role="img" aria-label="Email harshapilli369@gmail.com">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="4" seed="31" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+    <filter id="elev" x="-18%" y="-22%" width="136%" height="150%">
+      <feDropShadow in="SourceGraphic" dx="0" dy="1" stdDeviation="1.2" flood-color="#3A3226" flood-opacity="0.10" result="s1"/>
+      <feDropShadow in="s1" dx="0" dy="7" stdDeviation="10" flood-color="#3A3226" flood-opacity="0.13"/>
+    </filter>
+    <filter id="raise" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#3A3226" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="laid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0.5" x2="5" y2="0.5" stroke="#6B5F45" stroke-opacity="0.04" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+  <g font-family="Georgia, 'Times New Roman', serif">
+  <path d="M 14.00,34.00 L 14.04,26.10 L 14.15,23.60 L 14.35,21.81 L 14.62,20.38 L 14.98,19.20 L 15.42,18.19 L 15.96,17.33 L 16.59,16.59 L 17.33,15.96 L 18.19,15.42 L 19.20,14.98 L 20.38,14.62 L 21.81,14.35 L 23.60,14.15 L 26.10,14.04 L 34.00,14.00 L 206.00,14.00 L 213.90,14.04 L 216.40,14.15 L 218.19,14.35 L 219.62,14.62 L 220.80,14.98 L 221.81,15.42 L 222.67,15.96 L 223.41,16.59 L 224.04,17.33 L 224.58,18.19 L 225.02,19.20 L 225.38,20.38 L 225.65,21.81 L 225.85,23.60 L 225.96,26.10 L 226.00,34.00 L 226.00,34.00 L 225.96,41.90 L 225.85,44.40 L 225.65,46.19 L 225.38,47.62 L 225.02,48.80 L 224.58,49.81 L 224.04,50.67 L 223.41,51.41 L 222.67,52.04 L 221.81,52.58 L 220.80,53.02 L 219.62,53.38 L 218.19,53.65 L 216.40,53.85 L 213.90,53.96 L 206.00,54.00 L 34.00,54.00 L 26.10,53.96 L 23.60,53.85 L 21.81,53.65 L 20.38,53.38 L 19.20,53.02 L 18.19,52.58 L 17.33,52.04 L 16.59,51.41 L 15.96,50.67 L 15.42,49.81 L 14.98,48.80 L 14.62,47.62 L 14.35,46.19 L 14.15,44.40 L 14.04,41.90 L 14.00,34.00 Z" fill="#1155CC" filter="url(#elev)"/>
+  <text x="120.0" y="39.0" font-size="13.5" fill="#FBF7EE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="middle">Email me</text>
+  </g>
+</svg>
