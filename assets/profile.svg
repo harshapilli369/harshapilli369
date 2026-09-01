@@ -1,256 +1,322 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1358" viewBox="0 0 1000 1358" role="img" aria-label="Harsha Pilli, Java and Spring Boot developer in Halifax, Nova Scotia. Three years of production delivery before a Master of Applied Computer Science at Dalhousie University. 535 unit tests on one project, 50 REST endpoints, 85 percent coverage at work. Projects: Collabry, SmartCare, an open pull request against OpenMRS Core, and DCode. Available for a 4 or 8 month developer co-op from January 2027, open to relocation anywhere in Canada.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1372" viewBox="0 0 1000 1372" role="img" aria-label="Harsha Pilli, Java and Spring Boot developer in Halifax, Nova Scotia. Three years of production delivery before a Master of Applied Computer Science at Dalhousie University. 535 unit tests on one project, 50 REST endpoints, 85 percent coverage at work, 727 commits this year. Projects: Collabry, SmartCare, an open pull request against OpenMRS Core, and DCode. Available for a 4 or 8 month developer co-op from January 2027, open to relocation anywhere in Canada.">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="29" result="n"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="31" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
       <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
     </filter>
     <filter id="lift" x="-14%" y="-14%" width="128%" height="134%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.13"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#6B5F45" flood-opacity="0.14"/>
     </filter>
     <filter id="liftbig" x="-6%" y="-4%" width="112%" height="110%">
       <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#5C5138" flood-opacity="0.20"/>
     </filter>
-    <clipPath id="win"><rect x="20" y="20" width="960" height="1318" rx="16"/></clipPath>
+    <clipPath id="win"><rect x="20" y="20" width="960" height="1332" rx="16"/></clipPath>
   </defs>
-  <rect width="1000" height="1358" fill="#E4DAC6"/>
+  <rect width="1000" height="1372" fill="#E4DAC6"/>
   <g font-family="Georgia, 'Times New Roman', serif">
-  <rect x="20" y="20" width="960" height="1318" rx="16" fill="#FAF6EC" stroke="#E0D7C4" stroke-width="1" filter="url(#liftbig)"/>
+  <rect x="20" y="20" width="960" height="1332" rx="16" fill="#FAF6EC" stroke="#E0D7C4" stroke-width="1" filter="url(#liftbig)"/>
   <g clip-path="url(#win)">
   <rect x="20.0" y="20.0" width="960.0" height="46.0" rx="0" fill="#F1EADB"/>
   <circle cx="44" cy="43.0" r="5.5" fill="#C4816A"/>
   <circle cx="62" cy="43.0" r="5.5" fill="#D2A857"/>
   <circle cx="80" cy="43.0" r="5.5" fill="#7E9B6E"/>
   <rect x="356.0" y="31.0" width="288.0" height="24.0" rx="12" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="500.0" y="47" font-size="10.5" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">github.com/harshapilli369</text>
-  <line x1="20" y1="66" x2="980" y2="66" stroke="#E0D7C4" stroke-width="1"/>
-  <rect x="20.0" y="66.0" width="196.0" height="1272.0" rx="0" fill="#F1EADB"/>
-  <line x1="216" y1="66" x2="216" y2="1338" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="42" y="100" font-size="8.5" fill="#948C7E" letter-spacing="1.8">COMPONENTS</text>
-  <rect x="30.0" y="113.0" width="176.0" height="22.0" rx="5" fill="#E3E9F6"/>
-  <rect x="30" y="113" width="2.5" height="22" fill="#1155CC"/>
-  <text x="42" y="129" font-size="11" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Hero /&gt;</text>
-  <text x="42" y="155" font-size="11" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatGrid /&gt;</text>
-  <text x="42" y="181" font-size="11" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard /&gt;</text>
-  <text x="42" y="207" font-size="11" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StackChips /&gt;</text>
-  <text x="42" y="233" font-size="11" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Contact /&gt;</text>
-  <line x1="42" y1="274" x2="194" y2="274" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="42" y="300" font-size="8.5" fill="#948C7E" letter-spacing="1.8">PROPS</text>
-  <text x="42" y="322" font-size="10" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">name</text>
-  <text x="194" y="322" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">string</text>
-  <text x="42" y="342" font-size="10" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">degree</text>
-  <text x="194" y="342" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">MACS</text>
-  <text x="42" y="362" font-size="10" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">experience</text>
-  <text x="194" y="362" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">3 years</text>
-  <text x="42" y="382" font-size="10" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">term</text>
-  <text x="194" y="382" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">4 | 8 months</text>
-  <text x="42" y="402" font-size="10" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">relocate</text>
-  <text x="194" y="402" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">boolean</text>
-  <line x1="42" y1="432" x2="194" y2="432" stroke="#E0D7C4" stroke-width="1"/>
-  <circle cx="47" cy="458" r="4.5" fill="#7E9B6E"/>
-  <text x="59" y="462" font-size="10.5" fill="#3A4348">Available Jan 2027</text>
-  <text x="42" y="482" font-size="10" fill="#948C7E">Halifax, Nova Scotia</text>
-  <text x="42" y="498" font-size="10" fill="#948C7E">Relocating anywhere</text>
-  <text x="42" y="514" font-size="10" fill="#948C7E">in Canada</text>
-  <line x1="42" y1="538" x2="194" y2="538" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="42" y="564" font-size="8.5" fill="#948C7E" letter-spacing="1.8">EDUCATION</text>
-  <text x="42" y="582" font-size="10.5" fill="#12181B" font-weight="700">MACS, Dalhousie</text>
-  <text x="42" y="597" font-size="9.5" fill="#948C7E">Jan 2026 to Apr 2027</text>
-  <text x="42" y="618" font-size="10.5" fill="#12181B" font-weight="700">B.Tech, JNTU Kakinada</text>
-  <text x="42" y="633" font-size="9.5" fill="#948C7E">2018 to 2022</text>
-  <line x1="42" y1="660" x2="194" y2="660" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="42" y="686" font-size="8.5" fill="#948C7E" letter-spacing="1.8">EXPERIENCE</text>
-  <text x="42" y="704" font-size="10.5" fill="#12181B" font-weight="700">System Engineer</text>
-  <text x="42" y="719" font-size="9.5" fill="#948C7E">CTC · 2024 to 2025</text>
-  <text x="42" y="740" font-size="10.5" fill="#12181B" font-weight="700">Associate Sys. Eng.</text>
-  <text x="42" y="755" font-size="9.5" fill="#948C7E">CTC · 2022 to 2024</text>
-  <line x1="42" y1="782" x2="194" y2="782" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="42" y="808" font-size="8.5" fill="#948C7E" letter-spacing="1.8">CERTIFIED</text>
-  <text x="42" y="826" font-size="10.5" fill="#12181B" font-weight="700">AWS Cloud Practitioner</text>
-  <text x="42" y="841" font-size="9.5" fill="#948C7E">Valid 2025 to 2028</text>
-  <rect x="244.0" y="96.0" width="708.0" height="210.0" rx="10" fill="none" stroke="#CDC3AE" stroke-width="1" stroke-dasharray="5 4"/>
-  <rect x="262.0" y="87.0" width="66.4" height="18.0" rx="4" fill="#FAF6EC"/>
-  <text x="295.2" y="97.5" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">&lt;Hero /&gt;</text>
-  <rect x="270.0" y="122.0" width="214.0" height="24.0" rx="12" fill="#E3E9F6"/>
-  <text x="377" y="138" font-size="9" fill="#1155CC" text-anchor="middle" letter-spacing="1.4">AVAILABLE JANUARY 2027</text>
-  <text x="270" y="188" font-size="36" fill="#12181B" font-weight="700">Harsha Pilli</text>
-  <text x="270" y="212" font-size="13" fill="#6B7378">Java · Spring Boot · REST APIs · Cloud</text>
-  <text x="270" y="242" font-size="12" fill="#3A4348">Three years of production delivery before the degree,</text>
-  <text x="270" y="260" font-size="12" fill="#3A4348">not after it. Now completing a Master of Applied</text>
-  <text x="270" y="278" font-size="12" fill="#3A4348">Computer Science at Dalhousie University in Halifax.</text>
-  <rect x="652.0" y="120.0" width="274.0" height="162.0" rx="8" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="668" y="144.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;</text>
-  <text x="674.0" y="144.0" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">Developer</text>
-  <text x="668" y="161.5" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  name</text>
-  <text x="704.0" y="161.5" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
-  <text x="710.0" y="161.5" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"Harsha Pilli"</text>
-  <text x="668" y="179.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  role</text>
-  <text x="704.0" y="179.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
-  <text x="710.0" y="179.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"Backend Developer"</text>
-  <text x="668" y="196.5" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  stack</text>
-  <text x="710.0" y="196.5" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={[</text>
-  <text x="728.0" y="196.5" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">'Java 17'</text>
-  <text x="782.0" y="196.5" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">,</text>
-  <text x="668" y="214.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">    'Spring Boot'</text>
-  <text x="770.0" y="214.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">, </text>
-  <text x="782.0" y="214.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">'AWS'</text>
-  <text x="812.0" y="214.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">]}</text>
-  <text x="668" y="231.5" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  available</text>
-  <text x="734.0" y="231.5" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
-  <text x="740.0" y="231.5" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"2027-01"</text>
-  <text x="668" y="249.0" font-size="10" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  relocate</text>
-  <text x="728.0" y="249.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={</text>
-  <text x="740.0" y="249.0" font-size="10" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">true</text>
-  <text x="764.0" y="249.0" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">}</text>
-  <text x="668" y="266.5" font-size="10" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">/&gt;</text>
-  <rect x="244.0" y="350.0" width="708.0" height="128.0" rx="10" fill="none" stroke="#CDC3AE" stroke-width="1" stroke-dasharray="5 4"/>
-  <rect x="262.0" y="341.0" width="91.6" height="18.0" rx="4" fill="#FAF6EC"/>
-  <text x="307.8" y="351.5" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">&lt;StatGrid /&gt;</text>
-  <rect x="270.0" y="376.0" width="153.5" height="76.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="346.75" y="418" font-size="30" fill="#1155CC" font-weight="700" text-anchor="middle">535</text>
-  <text x="346.75" y="438" font-size="8.5" fill="#6B7378" text-anchor="middle" letter-spacing="1.3">UNIT TESTS</text>
-  <rect x="437.5" y="376.0" width="153.5" height="76.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="514.25" y="418" font-size="30" fill="#1155CC" font-weight="700" text-anchor="middle">50</text>
-  <text x="514.25" y="438" font-size="8.5" fill="#6B7378" text-anchor="middle" letter-spacing="1.3">REST ENDPOINTS</text>
-  <rect x="605.0" y="376.0" width="153.5" height="76.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="681.75" y="418" font-size="30" fill="#1155CC" font-weight="700" text-anchor="middle">85%</text>
-  <text x="681.75" y="438" font-size="8.5" fill="#6B7378" text-anchor="middle" letter-spacing="1.3">COVERAGE</text>
-  <rect x="772.5" y="376.0" width="153.5" height="76.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="849.25" y="418" font-size="30" fill="#1155CC" font-weight="700" text-anchor="middle">727</text>
-  <text x="849.25" y="438" font-size="8.5" fill="#6B7378" text-anchor="middle" letter-spacing="1.3">COMMITS / YR</text>
-  <rect x="244.0" y="522.0" width="708.0" height="348.0" rx="10" fill="none" stroke="#CDC3AE" stroke-width="1" stroke-dasharray="5 4"/>
-  <rect x="262.0" y="513.0" width="110.5" height="18.0" rx="4" fill="#FAF6EC"/>
-  <text x="317.25" y="523.5" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">&lt;ProjectCard /&gt;</text>
-  <rect x="270.0" y="552.0" width="345.0" height="132.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="290.0" y="582" font-size="14.5" fill="#12181B" font-weight="700">Collabry</text>
-  <rect x="290.0" y="591.0" width="71.5" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="325.74" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">Spring Boot</text>
-  <rect x="369.5" y="591.0" width="57.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="398.20000000000005" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">React 19</text>
-  <rect x="434.9" y="591.0" width="48.1" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="458.96000000000004" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">Docker</text>
-  <text x="290.0" y="630" font-size="11.5" fill="#3A4348">50 REST endpoints, 12 controllers, 18 services.</text>
-  <text x="290.0" y="646" font-size="11.5" fill="#3A4348">535 JUnit 5 tests, all written test-first.</text>
-  <line x1="290.0" y1="656" x2="595.0" y2="656" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="290.0" y="672" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">github.com/harshapilli369/collabry</text>
-  <rect x="633.0" y="552.0" width="345.0" height="132.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="653.0" y="582" font-size="14.5" fill="#12181B" font-weight="700">SmartCare</text>
-  <rect x="653.0" y="591.0" width="48.1" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="677.04" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">Python</text>
-  <rect x="709.1" y="591.0" width="34.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="726.1" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">AWS</text>
-  <rect x="751.1" y="591.0" width="34.0" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="768.14" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">GCP</text>
-  <rect x="793.2" y="591.0" width="62.1" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="824.22" y="605.15" font-size="9" fill="#3A4348" text-anchor="middle">Terraform</text>
-  <text x="653.0" y="630" font-size="11.5" fill="#3A4348">Both clouds as code, rebuildable from a clean</text>
-  <text x="653.0" y="646" font-size="11.5" fill="#3A4348">account. MFA, booking Lambda, SQS to SNS.</text>
-  <line x1="653.0" y1="656" x2="958.0" y2="656" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="653.0" y="672" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">github.com/harshapilli369/saws-smartcare</text>
-  <rect x="270.0" y="700.0" width="345.0" height="132.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="290.0" y="730" font-size="14.5" fill="#12181B" font-weight="700">OpenMRS Core</text>
-  <rect x="290.0" y="739.0" width="38.7" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="309.36" y="753.15" font-size="9" fill="#3A4348" text-anchor="middle">Java</text>
-  <rect x="336.7" y="739.0" width="62.1" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="367.78000000000003" y="753.15" font-size="9" fill="#3A4348" text-anchor="middle">Hibernate</text>
-  <rect x="406.8" y="739.0" width="66.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="440.24" y="753.15" font-size="9" fill="#3A4348" text-anchor="middle">SonarCloud</text>
-  <text x="290.0" y="778" font-size="11.5" fill="#3A4348">Six categories of code smell cleared across 16</text>
-  <text x="290.0" y="794" font-size="11.5" fill="#3A4348">files, +539/-134 over nine commits.</text>
-  <line x1="290.0" y1="804" x2="595.0" y2="804" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="290.0" y="820" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">Open pull request #5937</text>
-  <rect x="633.0" y="700.0" width="345.0" height="132.0" rx="9" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
-  <text x="653.0" y="730" font-size="14.5" fill="#12181B" font-weight="700">DCode</text>
-  <rect x="653.0" y="739.0" width="48.1" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="677.04" y="753.15" font-size="9" fill="#3A4348" text-anchor="middle">Django</text>
-  <rect x="709.1" y="739.0" width="52.8" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="735.46" y="753.15" font-size="9" fill="#3A4348" text-anchor="middle">MongoDB</text>
-  <rect x="769.8" y="739.0" width="57.4" height="22.0" rx="11.0" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="798.5600000000001" y="753.15" font-size="9" fill="#3A4348" text-anchor="middle">NetworkX</text>
-  <text x="653.0" y="778" font-size="11.5" fill="#3A4348">Architecture layers proposed by Leiden/Louvain</text>
-  <text x="653.0" y="794" font-size="11.5" fill="#3A4348">community detection. Supervised research.</text>
-  <line x1="653.0" y1="804" x2="958.0" y2="804" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="653.0" y="820" font-size="10" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">dcodehub.com</text>
-  <rect x="244.0" y="914.0" width="708.0" height="262.0" rx="10" fill="none" stroke="#CDC3AE" stroke-width="1" stroke-dasharray="5 4"/>
-  <rect x="262.0" y="905.0" width="104.2" height="18.0" rx="4" fill="#FAF6EC"/>
-  <text x="314.1" y="915.5" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">&lt;StackChips /&gt;</text>
-  <text x="270" y="961" font-size="10.5" fill="#12181B" font-weight="700">Languages</text>
-  <rect x="366.0" y="946.8" width="54.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="393.29" y="961.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Java 17</text>
-  <rect x="428.6" y="946.8" width="49.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="453.4" y="961.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Python</text>
-  <rect x="486.2" y="946.8" width="69.4" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="520.92" y="961.325" font-size="9.5" fill="#3A4348" text-anchor="middle">TypeScript</text>
-  <rect x="563.6" y="946.8" width="69.4" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="598.32" y="961.325" font-size="9.5" fill="#3A4348" text-anchor="middle">JavaScript</text>
-  <rect x="641.0" y="946.8" width="34.8" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="658.43" y="961.325" font-size="9.5" fill="#3A4348" text-anchor="middle">SQL</text>
-  <rect x="683.8" y="946.8" width="39.8" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="703.72" y="961.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Dart</text>
-  <text x="270" y="995" font-size="10.5" fill="#12181B" font-weight="700">Backend</text>
-  <rect x="366.0" y="980.8" width="74.3" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="403.17" y="995.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Spring Boot</text>
-  <rect x="448.3" y="980.8" width="94.1" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="495.39000000000004" y="995.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Spring Security</text>
-  <rect x="550.4" y="980.8" width="94.1" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="597.49" y="995.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Spring Data JPA</text>
-  <rect x="652.5" y="980.8" width="64.5" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="684.7700000000001" y="995.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Hibernate</text>
-  <rect x="725.0" y="980.8" width="49.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="749.8200000000002" y="995.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Django</text>
-  <text x="270" y="1029" font-size="10.5" fill="#12181B" font-weight="700">Front end</text>
-  <rect x="366.0" y="1014.8" width="59.5" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="395.76" y="1029.325" font-size="9.5" fill="#3A4348" text-anchor="middle">React 19</text>
-  <rect x="433.5" y="1014.8" width="39.8" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="453.4" y="1029.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Vite</text>
-  <rect x="481.3" y="1014.8" width="69.4" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="515.98" y="1029.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Ant Design</text>
-  <rect x="558.7" y="1014.8" width="54.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="585.9699999999999" y="1029.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Flutter</text>
-  <text x="270" y="1063" font-size="10.5" fill="#12181B" font-weight="700">Data</text>
-  <rect x="366.0" y="1048.8" width="69.4" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="400.7" y="1063.325" font-size="9.5" fill="#3A4348" text-anchor="middle">PostgreSQL</text>
-  <rect x="443.4" y="1048.8" width="44.7" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="465.75" y="1063.325" font-size="9.5" fill="#3A4348" text-anchor="middle">MySQL</text>
-  <rect x="496.1" y="1048.8" width="54.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="523.39" y="1063.325" font-size="9.5" fill="#3A4348" text-anchor="middle">MongoDB</text>
-  <rect x="558.7" y="1048.8" width="59.5" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="588.4399999999999" y="1063.325" font-size="9.5" fill="#3A4348" text-anchor="middle">DynamoDB</text>
-  <rect x="626.2" y="1048.8" width="84.2" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="668.31" y="1063.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Elasticsearch</text>
-  <text x="270" y="1097" font-size="10.5" fill="#12181B" font-weight="700">Cloud</text>
-  <rect x="366.0" y="1082.8" width="34.8" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="383.41" y="1097.325" font-size="9.5" fill="#3A4348" text-anchor="middle">AWS</text>
-  <rect x="408.8" y="1082.8" width="79.3" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="448.46" y="1097.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Google Cloud</text>
-  <rect x="496.1" y="1082.8" width="64.5" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="528.33" y="1097.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Terraform</text>
-  <rect x="568.6" y="1082.8" width="49.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="593.3800000000001" y="1097.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Docker</text>
-  <rect x="626.2" y="1082.8" width="69.4" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="660.9000000000001" y="1097.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Kubernetes</text>
-  <text x="270" y="1131" font-size="10.5" fill="#12181B" font-weight="700">Quality</text>
-  <rect x="366.0" y="1116.8" width="54.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="393.29" y="1131.325" font-size="9.5" fill="#3A4348" text-anchor="middle">JUnit 5</text>
-  <rect x="428.6" y="1116.8" width="54.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="455.87" y="1131.325" font-size="9.5" fill="#3A4348" text-anchor="middle">Mockito</text>
-  <rect x="491.2" y="1116.8" width="49.6" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="515.98" y="1131.325" font-size="9.5" fill="#3A4348" text-anchor="middle">JaCoCo</text>
-  <rect x="548.8" y="1116.8" width="64.5" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="581.03" y="1131.325" font-size="9.5" fill="#3A4348" text-anchor="middle">SonarQube</text>
-  <rect x="621.3" y="1116.8" width="64.5" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="653.49" y="1131.325" font-size="9.5" fill="#3A4348" text-anchor="middle">GitLab CI</text>
-  <rect x="693.7" y="1116.8" width="89.2" height="22.5" rx="11.25" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="738.3000000000001" y="1131.325" font-size="9.5" fill="#3A4348" text-anchor="middle">GitHub Actions</text>
-  <rect x="244.0" y="1220.0" width="708.0" height="84.0" rx="10" fill="none" stroke="#CDC3AE" stroke-width="1" stroke-dasharray="5 4"/>
-  <rect x="262.0" y="1211.0" width="85.3" height="18.0" rx="4" fill="#FAF6EC"/>
-  <text x="304.65" y="1221.5" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">&lt;Contact /&gt;</text>
-  <rect x="270.0" y="1246.0" width="150.0" height="34.0" rx="8" fill="#1155CC"/>
-  <text x="345.0" y="1268" font-size="12.5" fill="#FCFAF4" font-weight="700" text-anchor="middle">Email me</text>
-  <rect x="432.0" y="1246.0" width="150.0" height="34.0" rx="8" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
-  <text x="507.0" y="1268" font-size="12.5" fill="#12181B" font-weight="700" text-anchor="middle">LinkedIn</text>
-  <text x="270" y="1294" font-size="10.5" fill="#6B7378">harshapilli369@gmail.com  ·  AWS Certified Cloud Practitioner  ·  Halifax, NS</text>
+  <text x="500.0" y="47.0" font-size="10.5" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="middle">github.com/harshapilli369</text>
+  <line x1="20.0" y1="66.0" x2="980.0" y2="66.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="20.0" y="66.0" width="196.0" height="1286.0" rx="0" fill="#F1EADB"/>
+  <line x1="216.0" y1="66.0" x2="216.0" y2="1352.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="42.0" y="98.0" font-size="8.5" fill="#948C7E" letter-spacing="1.8">COMPONENT TREE</text>
+  <text x="42.0" y="124.0" font-size="11" fill="#12181B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Profile /&gt;</text>
+  <line x1="48.0" y1="132.0" x2="48.0" y2="146.0" stroke="#CBC1AC" stroke-width="1"/>
+  <line x1="48.0" y1="146.0" x2="58.0" y2="146.0" stroke="#CBC1AC" stroke-width="1"/>
+  <rect x="56.0" y="137.0" width="138.0" height="21.0" rx="5" fill="#E3E9F6"/>
+  <text x="62.0" y="150.0" font-size="10.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Hero /&gt;</text>
+  <line x1="48.0" y1="150.0" x2="48.0" y2="171.0" stroke="#CBC1AC" stroke-width="1"/>
+  <line x1="48.0" y1="171.0" x2="58.0" y2="171.0" stroke="#CBC1AC" stroke-width="1"/>
+  <text x="62.0" y="175.0" font-size="10.5" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatGrid /&gt;</text>
+  <text x="194.0" y="175.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">x4</text>
+  <line x1="48.0" y1="175.0" x2="48.0" y2="196.0" stroke="#CBC1AC" stroke-width="1"/>
+  <line x1="48.0" y1="196.0" x2="58.0" y2="196.0" stroke="#CBC1AC" stroke-width="1"/>
+  <text x="62.0" y="200.0" font-size="10.5" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard /&gt;</text>
+  <text x="194.0" y="200.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">x4</text>
+  <line x1="48.0" y1="200.0" x2="48.0" y2="221.0" stroke="#CBC1AC" stroke-width="1"/>
+  <line x1="48.0" y1="221.0" x2="58.0" y2="221.0" stroke="#CBC1AC" stroke-width="1"/>
+  <text x="62.0" y="225.0" font-size="10.5" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StackChips /&gt;</text>
+  <text x="194.0" y="225.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">x6</text>
+  <line x1="48.0" y1="225.0" x2="48.0" y2="246.0" stroke="#CBC1AC" stroke-width="1"/>
+  <line x1="48.0" y1="246.0" x2="58.0" y2="246.0" stroke="#CBC1AC" stroke-width="1"/>
+  <text x="62.0" y="250.0" font-size="10.5" fill="#6B7378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Contact /&gt;</text>
+  <line x1="42.0" y1="279.0" x2="194.0" y2="279.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="42.0" y="303.0" font-size="8.5" fill="#948C7E" letter-spacing="1.8">PROPS</text>
+  <text x="42.0" y="323.0" font-size="9.5" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">name</text>
+  <text x="194.0" y="323.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">string</text>
+  <text x="42.0" y="342.0" font-size="9.5" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">degree</text>
+  <text x="194.0" y="342.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">MACS</text>
+  <text x="42.0" y="361.0" font-size="9.5" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">experience</text>
+  <text x="194.0" y="361.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">3 yrs</text>
+  <text x="42.0" y="380.0" font-size="9.5" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">term</text>
+  <text x="194.0" y="380.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">4 | 8 mo</text>
+  <text x="42.0" y="399.0" font-size="9.5" fill="#3A4348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">relocate</text>
+  <text x="194.0" y="399.0" font-size="9" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">boolean</text>
+  <line x1="42.0" y1="424.0" x2="194.0" y2="424.0" stroke="#E0D7C4" stroke-width="1"/>
+  <circle cx="47" cy="448" r="4.5" fill="#7E9B6E"/>
+  <text x="59.0" y="452.0" font-size="10.5" fill="#3A4348">Available Jan 2027</text>
+  <text x="42.0" y="470.0" font-size="9.5" fill="#948C7E">Halifax, Nova Scotia</text>
+  <text x="42.0" y="485.0" font-size="9.5" fill="#948C7E">Relocating anywhere in</text>
+  <text x="42.0" y="500.0" font-size="9.5" fill="#948C7E">Canada</text>
+  <line x1="42.0" y1="524.0" x2="194.0" y2="524.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="42.0" y="548.0" font-size="8.5" fill="#948C7E" letter-spacing="1.8">EDUCATION</text>
+  <text x="42.0" y="566.0" font-size="10.5" fill="#12181B" font-weight="700">MACS, Dalhousie</text>
+  <text x="42.0" y="580.0" font-size="9" fill="#948C7E">Jan 2026 to Apr 2027</text>
+  <text x="42.0" y="600.0" font-size="10.5" fill="#12181B" font-weight="700">B.Tech, JNTU Kakinada</text>
+  <text x="42.0" y="614.0" font-size="9" fill="#948C7E">2018 to 2022</text>
+  <line x1="42.0" y1="638.0" x2="194.0" y2="638.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="42.0" y="662.0" font-size="8.5" fill="#948C7E" letter-spacing="1.8">EXPERIENCE</text>
+  <text x="42.0" y="680.0" font-size="10.5" fill="#12181B" font-weight="700">System Engineer</text>
+  <text x="42.0" y="694.0" font-size="9" fill="#948C7E">CTC · 2024 to 2025</text>
+  <text x="42.0" y="714.0" font-size="10.5" fill="#12181B" font-weight="700">Associate Sys. Eng.</text>
+  <text x="42.0" y="728.0" font-size="9" fill="#948C7E">CTC · 2022 to 2024</text>
+  <line x1="42.0" y1="752.0" x2="194.0" y2="752.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="42.0" y="776.0" font-size="8.5" fill="#948C7E" letter-spacing="1.8">CERTIFIED</text>
+  <text x="42.0" y="794.0" font-size="10.5" fill="#12181B" font-weight="700">AWS Cloud Practitioner</text>
+  <text x="42.0" y="808.0" font-size="9" fill="#948C7E">Valid 2025 to 2028</text>
+  <line x1="42.0" y1="842.0" x2="194.0" y2="842.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="42.0" y="866.0" font-size="8.5" fill="#948C7E" letter-spacing="1.8">COLOPHON</text>
+  <text x="42.0" y="886.0" font-size="9" fill="#948C7E">Typeset in Georgia. Laid</text>
+  <text x="42.0" y="900.0" font-size="9" fill="#948C7E">out by a Python script,</text>
+  <text x="42.0" y="914.0" font-size="9" fill="#948C7E">not placed by hand. Same</text>
+  <text x="42.0" y="928.0" font-size="9" fill="#948C7E">palette as my resume.</text>
+  <text x="224.0" y="96.0" font-size="12.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Profile</text>
+  <text x="284.0" y="96.0" font-size="12.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"> theme=</text>
+  <text x="336.5" y="96.0" font-size="12.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"paper"</text>
+  <text x="389.0" y="96.0" font-size="12.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&gt;</text>
+  <line x1="240.0" y1="108.0" x2="240.0" y2="1304.0" stroke="#CBC1AC" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="224.0" y="1322.0" font-size="12.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;/Profile&gt;</text>
+  <line x1="240.0" y1="137.0" x2="272.0" y2="137.0" stroke="#CBC1AC" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="240" cy="137.0" r="3.2" fill="#1155CC"/>
+  <line x1="240.0" y1="373.0" x2="272.0" y2="373.0" stroke="#CBC1AC" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="240" cy="373.0" r="3.2" fill="#1155CC"/>
+  <line x1="240.0" y1="531.0" x2="272.0" y2="531.0" stroke="#CBC1AC" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="240" cy="531.0" r="3.2" fill="#1155CC"/>
+  <line x1="240.0" y1="913.0" x2="272.0" y2="913.0" stroke="#CBC1AC" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="240" cy="913.0" r="3.2" fill="#1155CC"/>
+  <line x1="240.0" y1="1199.0" x2="272.0" y2="1199.0" stroke="#CBC1AC" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="240" cy="1199.0" r="3.2" fill="#1155CC"/>
+  <rect x="272.0" y="120.0" width="680.0" height="212.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="272.0" y="120.0" width="680.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="272.0" y="137.0" width="680.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="272.0" y1="154.0" x2="952.0" y2="154.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="288" y="133.5" width="7" height="7" rx="2" fill="#1155CC"/>
+  <text x="303.0" y="141.0" font-size="11" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Hero /&gt;</text>
+  <text x="936.0" y="140.5" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">props: 5</text>
+  <rect x="296.0" y="174.0" width="210.0" height="23.0" rx="11.5" fill="#E3E9F6"/>
+  <text x="401.0" y="189.0" font-size="8.8" fill="#1155CC" text-anchor="middle" letter-spacing="1.4">AVAILABLE JANUARY 2027</text>
+  <text x="296.0" y="238.0" font-size="34" fill="#12181B" font-weight="700">Harsha Pilli</text>
+  <text x="296.0" y="260.0" font-size="12.5" fill="#6B7378">Java · Spring Boot · REST APIs · Cloud</text>
+  <text x="296.0" y="286.0" font-size="11.5" fill="#3A4348">Three years of production delivery before the degree,</text>
+  <text x="296.0" y="303.0" font-size="11.5" fill="#3A4348">not after it. Now completing a Master of Applied</text>
+  <text x="296.0" y="320.0" font-size="11.5" fill="#3A4348">Computer Science at Dalhousie University in Halifax.</text>
+  <rect x="670.0" y="172.0" width="258.0" height="142.0" rx="8" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="685.0" y="194.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;</text>
+  <text x="690.7" y="194.0" font-size="9.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">Developer</text>
+  <text x="685.0" y="210.5" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  name</text>
+  <text x="719.2" y="210.5" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
+  <text x="724.9" y="210.5" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"Harsha Pilli"</text>
+  <text x="685.0" y="227.0" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  role</text>
+  <text x="719.2" y="227.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
+  <text x="724.9" y="227.0" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"Backend"</text>
+  <text x="685.0" y="243.5" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  stack</text>
+  <text x="724.9" y="243.5" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={[</text>
+  <text x="742.0" y="243.5" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">'Java 17'</text>
+  <text x="793.3" y="243.5" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">,</text>
+  <text x="685.0" y="260.0" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">    'Spring Boot'</text>
+  <text x="781.9" y="260.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">, </text>
+  <text x="793.3" y="260.0" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">'AWS'</text>
+  <text x="821.8" y="260.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">]}</text>
+  <text x="685.0" y="276.5" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  available</text>
+  <text x="747.7" y="276.5" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">=</text>
+  <text x="753.4" y="276.5" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">"2027-01"</text>
+  <text x="685.0" y="293.0" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">  relocate</text>
+  <text x="742.0" y="293.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">={</text>
+  <text x="753.4" y="293.0" font-size="9.5" fill="#4F7A4A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">true</text>
+  <text x="776.2" y="293.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">}</text>
+  <text x="685.0" y="309.5" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">/&gt;</text>
+  <rect x="272.0" y="356.0" width="680.0" height="134.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="272.0" y="356.0" width="680.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="272.0" y="373.0" width="680.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="272.0" y1="390.0" x2="952.0" y2="390.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="288" y="369.5" width="7" height="7" rx="2" fill="#1155CC"/>
+  <text x="303.0" y="377.0" font-size="11" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StatGrid /&gt;</text>
+  <text x="936.0" y="376.5" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">items: 4</text>
+  <rect x="296.0" y="406.0" width="147.5" height="68.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="369.8" y="442.0" font-size="28" fill="#1155CC" font-weight="700" text-anchor="middle">535</text>
+  <text x="369.8" y="461.0" font-size="8.2" fill="#6B7378" text-anchor="middle" letter-spacing="1.2">UNIT TESTS</text>
+  <rect x="457.5" y="406.0" width="147.5" height="68.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="531.2" y="442.0" font-size="28" fill="#1155CC" font-weight="700" text-anchor="middle">50</text>
+  <text x="531.2" y="461.0" font-size="8.2" fill="#6B7378" text-anchor="middle" letter-spacing="1.2">REST ENDPOINTS</text>
+  <rect x="619.0" y="406.0" width="147.5" height="68.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="692.8" y="442.0" font-size="28" fill="#1155CC" font-weight="700" text-anchor="middle">85%</text>
+  <text x="692.8" y="461.0" font-size="8.2" fill="#6B7378" text-anchor="middle" letter-spacing="1.2">COVERAGE</text>
+  <rect x="780.5" y="406.0" width="147.5" height="68.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="854.2" y="442.0" font-size="28" fill="#1155CC" font-weight="700" text-anchor="middle">727</text>
+  <text x="854.2" y="461.0" font-size="8.2" fill="#6B7378" text-anchor="middle" letter-spacing="1.2">COMMITS / YR</text>
+  <rect x="272.0" y="514.0" width="680.0" height="358.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="272.0" y="514.0" width="680.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="272.0" y="531.0" width="680.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="272.0" y1="548.0" x2="952.0" y2="548.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="288" y="527.5" width="7" height="7" rx="2" fill="#1155CC"/>
+  <text x="303.0" y="535.0" font-size="11" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard /&gt;</text>
+  <text x="936.0" y="534.5" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">x4 instances</text>
+  <text x="296.0" y="568.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">{projects.</text>
+  <text x="353.0" y="568.0" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">map</text>
+  <text x="370.1" y="568.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">(p =&gt; </text>
+  <text x="404.3" y="568.0" font-size="9.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;ProjectCard</text>
+  <text x="472.7" y="568.0" font-size="9.5" fill="#9A6B2F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"> {...p} /&gt;</text>
+  <text x="529.7" y="568.0" font-size="9.5" fill="#8A8578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">)}</text>
+  <rect x="294.0" y="580.0" width="309.0" height="130.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="312.0" y="608.0" font-size="14" fill="#12181B" font-weight="700">Collabry</text>
+  <text x="587.0" y="606.0" font-size="8.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[0]</text>
+  <rect x="312.0" y="617.0" width="71.5" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="347.7" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">Spring Boot</text>
+  <rect x="391.5" y="617.0" width="57.4" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="420.2" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">React 19</text>
+  <rect x="456.9" y="617.0" width="48.1" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="481.0" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">Docker</text>
+  <text x="312.0" y="656.0" font-size="11.5" fill="#3A4348">50 REST endpoints across 12 controllers</text>
+  <text x="312.0" y="672.0" font-size="11.5" fill="#3A4348">and 18 services. 535 JUnit 5 tests.</text>
+  <line x1="312.0" y1="680.0" x2="585.0" y2="680.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="312.0" y="696.0" font-size="9.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">github.com/harshapilli369/collabry</text>
+  <rect x="621.0" y="580.0" width="309.0" height="130.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="639.0" y="608.0" font-size="14" fill="#12181B" font-weight="700">SmartCare</text>
+  <text x="914.0" y="606.0" font-size="8.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[1]</text>
+  <rect x="639.0" y="617.0" width="48.1" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="663.0" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">Python</text>
+  <rect x="695.1" y="617.0" width="34.0" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="712.1" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">AWS</text>
+  <rect x="737.1" y="617.0" width="34.0" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="754.1" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">GCP</text>
+  <rect x="779.2" y="617.0" width="62.1" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="810.2" y="631.1" font-size="9" fill="#3A4348" text-anchor="middle">Terraform</text>
+  <text x="639.0" y="656.0" font-size="11.5" fill="#3A4348">Both clouds as code, rebuildable from a</text>
+  <text x="639.0" y="672.0" font-size="11.5" fill="#3A4348">clean account. MFA, booking, SQS to SNS.</text>
+  <line x1="639.0" y1="680.0" x2="912.0" y2="680.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="639.0" y="696.0" font-size="9.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">github.com/harshapilli369/saws-smartcare</text>
+  <rect x="294.0" y="726.0" width="309.0" height="130.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="312.0" y="754.0" font-size="14" fill="#12181B" font-weight="700">OpenMRS Core</text>
+  <text x="587.0" y="752.0" font-size="8.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[2]</text>
+  <rect x="312.0" y="763.0" width="38.7" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="331.4" y="777.1" font-size="9" fill="#3A4348" text-anchor="middle">Java</text>
+  <rect x="358.7" y="763.0" width="62.1" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="389.8" y="777.1" font-size="9" fill="#3A4348" text-anchor="middle">Hibernate</text>
+  <rect x="428.8" y="763.0" width="66.8" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="462.2" y="777.1" font-size="9" fill="#3A4348" text-anchor="middle">SonarCloud</text>
+  <text x="312.0" y="802.0" font-size="11.5" fill="#3A4348">Six categories of code smell cleared</text>
+  <text x="312.0" y="818.0" font-size="11.5" fill="#3A4348">across 16 files, +539/-134, 9 commits.</text>
+  <line x1="312.0" y1="826.0" x2="585.0" y2="826.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="312.0" y="842.0" font-size="9.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">Open pull request #5937</text>
+  <rect x="621.0" y="726.0" width="309.0" height="130.0" rx="9" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="639.0" y="754.0" font-size="14" fill="#12181B" font-weight="700">DCode</text>
+  <text x="914.0" y="752.0" font-size="8.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">[3]</text>
+  <rect x="639.0" y="763.0" width="48.1" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="663.0" y="777.1" font-size="9" fill="#3A4348" text-anchor="middle">Django</text>
+  <rect x="695.1" y="763.0" width="52.8" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="721.5" y="777.1" font-size="9" fill="#3A4348" text-anchor="middle">MongoDB</text>
+  <rect x="755.8" y="763.0" width="57.4" height="22.0" rx="11.0" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="784.6" y="777.1" font-size="9" fill="#3A4348" text-anchor="middle">NetworkX</text>
+  <text x="639.0" y="802.0" font-size="11.5" fill="#3A4348">Architecture layers proposed by Leiden/</text>
+  <text x="639.0" y="818.0" font-size="11.5" fill="#3A4348">Louvain community detection. Research.</text>
+  <line x1="639.0" y1="826.0" x2="912.0" y2="826.0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="639.0" y="842.0" font-size="9.5" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">dcodehub.com</text>
+  <rect x="272.0" y="896.0" width="680.0" height="262.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="272.0" y="896.0" width="680.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="272.0" y="913.0" width="680.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="272.0" y1="930.0" x2="952.0" y2="930.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="288" y="909.5" width="7" height="7" rx="2" fill="#1155CC"/>
+  <text x="303.0" y="917.0" font-size="11" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;StackChips /&gt;</text>
+  <text x="936.0" y="916.5" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">6 groups · 31 chips</text>
+  <text x="296.0" y="963.0" font-size="10.5" fill="#12181B" font-weight="700">Languages</text>
+  <rect x="392.0" y="948.8" width="54.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="419.3" y="963.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Java 17</text>
+  <rect x="454.6" y="948.8" width="49.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="479.4" y="963.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Python</text>
+  <rect x="512.2" y="948.8" width="69.4" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="546.9" y="963.3" font-size="9.5" fill="#3A4348" text-anchor="middle">TypeScript</text>
+  <rect x="589.6" y="948.8" width="69.4" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="624.3" y="963.3" font-size="9.5" fill="#3A4348" text-anchor="middle">JavaScript</text>
+  <rect x="667.0" y="948.8" width="34.8" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="684.4" y="963.3" font-size="9.5" fill="#3A4348" text-anchor="middle">SQL</text>
+  <rect x="709.8" y="948.8" width="39.8" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="729.7" y="963.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Dart</text>
+  <text x="296.0" y="995.0" font-size="10.5" fill="#12181B" font-weight="700">Backend</text>
+  <rect x="392.0" y="980.8" width="74.3" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="429.2" y="995.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Spring Boot</text>
+  <rect x="474.3" y="980.8" width="94.1" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="521.4" y="995.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Spring Security</text>
+  <rect x="576.4" y="980.8" width="94.1" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="623.5" y="995.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Spring Data JPA</text>
+  <rect x="678.5" y="980.8" width="64.5" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="710.8" y="995.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Hibernate</text>
+  <rect x="751.0" y="980.8" width="49.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="775.8" y="995.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Django</text>
+  <text x="296.0" y="1027.0" font-size="10.5" fill="#12181B" font-weight="700">Front end</text>
+  <rect x="392.0" y="1012.8" width="59.5" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="421.8" y="1027.3" font-size="9.5" fill="#3A4348" text-anchor="middle">React 19</text>
+  <rect x="459.5" y="1012.8" width="39.8" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="479.4" y="1027.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Vite</text>
+  <rect x="507.3" y="1012.8" width="69.4" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="542.0" y="1027.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Ant Design</text>
+  <rect x="584.7" y="1012.8" width="54.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="612.0" y="1027.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Flutter</text>
+  <text x="296.0" y="1059.0" font-size="10.5" fill="#12181B" font-weight="700">Data</text>
+  <rect x="392.0" y="1044.8" width="69.4" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="426.7" y="1059.3" font-size="9.5" fill="#3A4348" text-anchor="middle">PostgreSQL</text>
+  <rect x="469.4" y="1044.8" width="44.7" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="491.8" y="1059.3" font-size="9.5" fill="#3A4348" text-anchor="middle">MySQL</text>
+  <rect x="522.1" y="1044.8" width="54.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="549.4" y="1059.3" font-size="9.5" fill="#3A4348" text-anchor="middle">MongoDB</text>
+  <rect x="584.7" y="1044.8" width="59.5" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="614.4" y="1059.3" font-size="9.5" fill="#3A4348" text-anchor="middle">DynamoDB</text>
+  <rect x="652.2" y="1044.8" width="84.2" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="694.3" y="1059.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Elasticsearch</text>
+  <text x="296.0" y="1091.0" font-size="10.5" fill="#12181B" font-weight="700">Cloud</text>
+  <rect x="392.0" y="1076.8" width="34.8" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="409.4" y="1091.3" font-size="9.5" fill="#3A4348" text-anchor="middle">AWS</text>
+  <rect x="434.8" y="1076.8" width="79.3" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="474.5" y="1091.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Google Cloud</text>
+  <rect x="522.1" y="1076.8" width="64.5" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="554.3" y="1091.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Terraform</text>
+  <rect x="594.6" y="1076.8" width="49.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="619.4" y="1091.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Docker</text>
+  <rect x="652.2" y="1076.8" width="69.4" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="686.9" y="1091.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Kubernetes</text>
+  <text x="296.0" y="1123.0" font-size="10.5" fill="#12181B" font-weight="700">Quality</text>
+  <rect x="392.0" y="1108.8" width="54.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="419.3" y="1123.3" font-size="9.5" fill="#3A4348" text-anchor="middle">JUnit 5</text>
+  <rect x="454.6" y="1108.8" width="54.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="481.9" y="1123.3" font-size="9.5" fill="#3A4348" text-anchor="middle">Mockito</text>
+  <rect x="517.2" y="1108.8" width="49.6" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="542.0" y="1123.3" font-size="9.5" fill="#3A4348" text-anchor="middle">JaCoCo</text>
+  <rect x="574.8" y="1108.8" width="64.5" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="607.0" y="1123.3" font-size="9.5" fill="#3A4348" text-anchor="middle">SonarQube</text>
+  <rect x="647.3" y="1108.8" width="64.5" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="679.5" y="1123.3" font-size="9.5" fill="#3A4348" text-anchor="middle">GitLab CI</text>
+  <rect x="719.7" y="1108.8" width="89.2" height="22.5" rx="11.25" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="764.3" y="1123.3" font-size="9.5" fill="#3A4348" text-anchor="middle">GitHub Actions</text>
+  <rect x="272.0" y="1182.0" width="680.0" height="112.0" rx="11" fill="#FDFBF6" stroke="#E0D7C4" stroke-width="1" filter="url(#lift)"/>
+  <rect x="272.0" y="1182.0" width="680.0" height="34.0" rx="11" fill="#F4EFE3"/>
+  <rect x="272.0" y="1199.0" width="680.0" height="17.0" rx="0" fill="#F4EFE3"/>
+  <line x1="272.0" y1="1216.0" x2="952.0" y2="1216.0" stroke="#E0D7C4" stroke-width="1"/>
+  <rect x="288" y="1195.5" width="7" height="7" rx="2" fill="#1155CC"/>
+  <text x="303.0" y="1203.0" font-size="11" fill="#1155CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">&lt;Contact /&gt;</text>
+  <text x="936.0" y="1202.5" font-size="9.5" fill="#948C7E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">2 actions</text>
+  <rect x="296.0" y="1232.0" width="146.0" height="32.0" rx="8" fill="#1155CC"/>
+  <text x="369.0" y="1253.0" font-size="12.5" fill="#FCFAF4" font-weight="700" text-anchor="middle">Email me</text>
+  <rect x="454.0" y="1232.0" width="146.0" height="32.0" rx="8" fill="#F5EFE0" stroke="#E0D7C4" stroke-width="1"/>
+  <text x="527.0" y="1253.0" font-size="12.5" fill="#12181B" font-weight="700" text-anchor="middle">LinkedIn</text>
+  <text x="928.0" y="1253.0" font-size="11" fill="#6B7378" text-anchor="end">AWS Certified Cloud Practitioner</text>
+  <text x="296.0" y="1280.0" font-size="10" fill="#948C7E">harshapilli369@gmail.com  ·  linkedin.com/in/harsha-pilli-35209123a</text>
   </g>
-  <rect width="1000" height="1358" filter="url(#grain)"/>
+  <rect width="1000" height="1372" filter="url(#grain)"/>
   </g>
 </svg>
